@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.circle_wrap{
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    transform-style: preserve-3d;
+    
+}
+.circle_wrap .center_circle_box{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.3);
+    transform: rotateX(70deg);
+}
+.circle_wrap .center_circle_box2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: -70px 0 0 -70px;
+    border-radius: 50%;
+    background-color: rgba(255,0,0,0.3);
+    transform: rotateX(70deg) translateZ(30px);
+}
+.circle_wrap .list_box{
+    display: flex;
+    border: 1px solid red;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: rotateX(70deg);
+    transform-style: preserve-3d;
+    animation-name: test;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.circle_wrap .list_box li{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin : -20px 0 0 -20px;
+    list-style: none;
+    transform: rotateX(-70deg);
+    animation-name: test2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.circle_wrap .list_box li:nth-child(1){
+    background: red;
+    margin: 90px 0 0 130px;
+}
+.circle_wrap .list_box li:nth-child(2){
+    background: yellow;
+    margin: 90px 0 0 -330px;
+}
+.circle_wrap .list_box li:nth-child(3){
+    background: blue;
+    margin: -250px 0 0 -360px
+}
+.circle_wrap .list_box li:nth-child(4){
+    background: green;
+    margin: -410px 0 0 -80px;
+}
+.circle_wrap .list_box li:nth-child(5){
+    background: pink;
+    margin: -250px 0 0 170px;
+}
+@keyframes test{
+    from {
+        transform: rotateX(70deg) rotateZ(0);
+    }
+    to {
+        transform: rotateX(70deg) rotateZ(360deg);
+    }
+}
+@keyframes test2{
+    from {
+        transform: rotateX(-90deg) rotateY(0);
+    }
+    to {
+        transform: rotateX(-90deg) rotateY(360deg);
+    }
+}
