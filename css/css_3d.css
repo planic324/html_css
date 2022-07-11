@@ -87,7 +87,7 @@
         transform: rotateX(70deg) rotateZ(0);
     }
     to {
-        transform: rotateX(70deg) rotateZ(360deg);
+        transform: rotateX(70deg) rotateZ(360deg) ;
     }
 }
 @keyframes test2{
