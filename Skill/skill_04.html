@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="/css/nanumsquare.css">
+<link rel="stylesheet" type="text/css" href="/css/common.css">
+<link rel="stylesheet" type="text/css" href="/css/gnb.css">
+<link rel="stylesheet" type="text/css" href="/css/lux.css">
+<link rel="stylesheet" type="text/css" href="/selene/css/selene.css">
+<link rel="stylesheet" type="text/css" href="/css/dialog.css">
+<link rel="stylesheet" type="text/css" href="/css/rnb.css">
+<link rel="stylesheet" type="text/css" href="/css/skill.css">
+
+<!-- [D] 디자인 확인 목적으로 생성한 js입니다. 개발시 삭제 부탁드립니다 -->
+<script src="../js/jquery-latest.min.js"></script>
+<script src="../js/jquery.include.js"></script>
+<script src="skill.js"></script>
+
+<!-- [D] highlight.js import -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/styles/atom-one-dark.min.css">
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+    // hljs.hightlightAll();
+</script>
+
+
+<title>font 꾸미기</title>
+</head>
+<body>
+<div id="wrap" class="dz_font">
+<div id="header" class="header">
+<!-- [D] 디자인 확인 목적으로 Jquery 인클루드 한 형태입니다. -->
+</div>
+<div class="lnb">
+<!-- [D] 디자인 확인 목적으로 Jquery 인클루드 한 형태입니다. -->
+</div>
+    <div class="snbnext">
+        <div class="container">
+            <div class="containerin">
+                <div class="content">
+                    <div class="skill dz_font">
+                        <div class="LS_subheader white_type">
+                            <a href="#"><h1 class="sub_tit">skill</h1></a>
+                        </div>
+                        <div class="skill_container">
+                            <!-- snb 불러오는 영역 -->
+                            <div data-include-path="snb.html"></div>
+                            <!-- //snb 불러오는 영역 -->
+                            <div class="skill_content">
+
+                                <div class="pageTitle__box">
+                                    <p class="pageTitle dzt_font">Spinner</p>
+                                </div>
+
+                                <div class="group">
+                                    <div class="group_title">
+                                        <p>view</p>
+                                    </div>
+                                    <div class="group_content">
+                                        
+                                        <div class="in_box" style="text-align:center;">
+                                            <p style="display:none;">div를 이용한 spinner</p>
+                                            <div class="spinner__box" style="display:none;">
+                                                <div class="spinner__box--loader">
+                                                    <div class="spinner__box--circle"></div>
+                                                </div>
+                                                
+                                            </div>
+
+                                            <p style="margin-top: 30px;">svg를 이용한 spinner</p>
+                                            <div class="svg_spinner_box" style="margin: 20px auto;">
+                                                <div class="svg_spinner">
+                                                    <svg width="100%" height="100%" viewBox="0 0 100 100">
+                                                        <defs>
+                                                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                                              <stop offset="15%" style="stop-color:#1c90fb;stop-opacity:1" />
+                                                              <stop offset="59%" style="stop-color:rgba(255,255,255,0);stop-opacity:1" />
+                                                            </linearGradient>
+                                                          </defs>
+                                                        <circle cx="50" cy="50" r="45" fill="transparent" stroke="url(#grad1)" stroke-width="10" />
+                                                    </svg>
+                                                    <svg width="100%" height="100%" viewBox="0 0 100 100" class="add_svg">
+                                                        <defs>
+                                                          </defs>
+                                                        <circle cx="50" cy="50" r="45" fill="transparent" stroke="#1c90fb" stroke-width="10" />
+                                                    </svg>
+                                                    <div class="svg_circle"></div>                                                
+                                                </div>
+                                                <p class="svg_spinner_text">Loading<em>.</em><em>.</em><em>.</em></p>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <div class="in_box code_box">
+
+                                            <!-- html -->
+                                            <div class="code_view_box">
+<pre><code class="html">
+&lt;div class="svg_spinner_box" style="margin: 20px auto;"&gt;
+    &lt;div class="svg_spinner"&gt;
+        &lt;svg width="100%" height="100%" viewBox="0 0 100 100"&gt;
+            &lt;defs&gt;
+                &lt;linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%"&gt;
+                    &lt;stop offset="15%" style="stop-color:#1c90fb;stop-opacity:1" /&gt;
+                    &lt;stop offset="59%" style="stop-color:rgba(255,255,255,0);stop-opacity:1" /&gt;
+                &lt;/linearGradient&gt;
+                &lt;/defs&gt;
+            &lt;circle cx="50" cy="50" r="45" fill="transparent" stroke="url(#grad1)" stroke-width="10" /&gt;
+        &lt;/svg&gt;
+        &lt;svg width="100%" height="100%" viewBox="0 0 100 100" class="add_svg"&gt;
+            &lt;defs&gt;
+                &lt;/defs&gt;
+            &lt;circle cx="50" cy="50" r="45" fill="transparent" stroke="#1c90fb" stroke-width="10" /&gt;
+        &lt;/svg&gt;
+        &lt;div class="svg_circle"&gt;&lt;/div&gt;                                                
+    &lt;/div&gt;
+    &lt;p class="svg_spinner_text"&gt;Loading&lt;em&gt;.&lt;/em&gt;&lt;em&gt;.&lt;/em&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>    
+                                            </div>
+                                            <!-- //html -->
+
+                                            <!-- css -->
+                                            <div class="code_view_box">
+<pre><code class="css">
+.svg_spinner_box {display: block;position: relative;width: 100px;height: 100px;}
+.svg_spinner_box .svg_spinner {position: relative;display: block;width: 100%;height: 100%;-webkit-animation: load 1.4s infinite linear;animation: load 1.4s infinite linear;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);}
+.svg_spinner_box .svg_spinner > svg {transform: rotate(320deg);}
+.svg_spinner_box .svg_spinner > svg.add_svg {position: absolute;top: 0;left: 0;transform: rotate(0);z-index: 10;clip-path: polygon(0 0, 50% 0, 50% 50%, 0 50%);}
+.svg_spinner_box .svg_spinner .svg_circle {display: block;width: 10px;height: 10px;border-radius: 50%;position: absolute;top: 0;left: 50%;margin-left: -5px;background: #1c90fb;}
+.svg_spinner_box .svg_spinner_text {display: block;position: absolute;font-size: 12px;line-height: 14px;letter-spacing: -0.5px;color: #1c90fb;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+.svg_spinner_box .svg_spinner_text > em {animation: load_text 1s infinite linear;}
+.svg_spinner_box .svg_spinner_text > em:nth-child(2) {animation: load_text2 1s infinite linear;}
+.svg_spinner_box .svg_spinner_text > em:nth-child(3) {animation: load_text3 1s infinite linear;}
+@keyframes load {
+    0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    }
+    100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    }
+}
+@keyframes load_text{
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+}
+@keyframes load_text2{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+}
+@keyframes load_text3{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+}
+</code></pre>
+                                            </div>
+                                            <!-- //css -->
+
+                                            
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
