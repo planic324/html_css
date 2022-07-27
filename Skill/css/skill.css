@@ -57,6 +57,8 @@
     width: 100%;
     height: auto;
 }
+
+
 .skill_container .skill_content .vs_box{
     display: flex;
     width: 100%;
@@ -103,7 +105,7 @@
 }
 .skill_container .skill_content .group_content .text_wrap{
     position: relative;
-    padding: 20px;
+    padding: 60px 20px;
     box-sizing: border-box;
 }
 .skill_container .skill_content .group_content .text_wrap .list_title{
@@ -528,4 +530,38 @@
     .media__test:after{
         content: 'max-width: 1100px'
     }
+}
+
+/* 흐르는 컵 */
+
+.cup{
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 180px;
+    margin: 0 auto;
+    border: 6px solid #000;
+    border-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: url(https://image.ibb.co/fmHm66/wave.png);
+    background-position: 0 350px;
+    background-repeat: repeat-x;
+    animation: filling 10s ease-in-out infinite;
+    box-shadow: 0 0 0 6px, 0 20px 35px rgba(0,0,0,1);
+}
+.cup:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    border: 12px solid #000;
+    right: -75px;
+    top: 30px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+@keyframes filling {
+    50% {background-position: 3000px 0;}
+    100% {background-position: 6000px 350px;}
 }
