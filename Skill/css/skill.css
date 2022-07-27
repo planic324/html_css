@@ -8,8 +8,8 @@
 .skill_container .skill_content{
     display: block;
     position: relative;
-    background-color: #f8f8f8;
     padding: 30px;
+    background-color: #f8f8f8;
     box-sizing: border-box;
     overflow-y: auto;
 }
@@ -18,11 +18,11 @@
     position: relative;
 }
 .skill_container .skill_content .pageTitle__box .pageTitle{
-    margin-bottom: 30px;
+    color: #000;
     font-size: 24px;
     line-height: 1.3em;
     letter-spacing: -0.55px;
-    color: #000;
+    margin-bottom: 30px;
 }
 .skill_container .skill_content .group{
     display: block;
@@ -40,14 +40,13 @@
 .skill_container .skill_content .group .group_title{
     display: block;
     padding: 20px 30px;
+    color: #4a4a4a;
+    font-weight: 900;
     font-size: 18px;
     line-height: 1.3em;
     letter-spacing: -0.55px;
-    color: #4a4a4a;
-    font-weight: 900;
     text-align: center;
     background-color: #1c90fb;
-    color: #fff;
 }
 .skill_container .skill_content .group .group_content{
     display: block;
@@ -64,25 +63,25 @@
     width: 100%;
 }
 .skill_container .skill_content .vs_box .inbx{
-    width: 50%;
     display: block;
+    width: 50%;
     padding: 15px;
     box-sizing: border-box;
 }
 .skill_container .skill_content .vs_box .inbx .imgInfo__box{
     display: block;
     position: relative;
-    margin-top: 15px;
     border: 1px solid #e6e6e6;
+    margin-top: 15px;
     border-radius: 12px;
     overflow: hidden;
 }
 .skill_container .skill_content .vs_box .inbx .imgInfo__box .imgInfo__box--item{
     display: flex;
+    color: #4a4a4a;
     font-size: 14px;
     line-height: 1.3em;
     letter-spacing: -0.55px;
-    color: #4a4a4a;
 }
 
 .skill_container .skill_content .vs_box .inbx .imgInfo__box .imgInfo__box--item + .imgInfo__box--item{
@@ -91,11 +90,11 @@
 .skill_container .skill_content .vs_box .inbx .imgInfo__box .imgInfo__box--item dt{
     display: block;
     width: 30%;
+    padding: 15px 0 15px 10px;
+    color: #000;
     font-weight: 900;
     background-color: #f8f8f8;
-    padding: 15px 0 15px 10px;
     box-sizing: border-box;
-    color: #000;
 }
 .skill_container .skill_content .vs_box .inbx .imgInfo__box .imgInfo__box--item dd{
     display: block;
@@ -111,11 +110,11 @@
 .skill_container .skill_content .group_content .text_wrap .list_title{
     display: block;
     position: relative;
-    margin-bottom: 10px;
-    font-size: 18px;
-    line-height: 1.3em;
     color: #4a4a4a;
     font-weight: 900;
+    font-size: 18px;
+    line-height: 1.3em;
+    margin-bottom: 10px;
 }
 .skill_container .skill_content .group_content .text_wrap .text_list{
     display: block;
@@ -123,9 +122,9 @@
 }
 .skill_container .skill_content .group_content .text_wrap .text_list .item{
     display: block;
+    color: #4a4a4a;
     font-size: 14px;
     line-height: 1.3em;
-    color: #4a4a4a;
     letter-spacing: -0.45px;
 }
 .skill_container .skill_content .group_content .text_wrap .text_list .item + .item{
@@ -145,8 +144,8 @@
 }
 .skill_container .skill_content .group_content .in_box{
     width: 600px;
-    margin: 0 auto;
     padding: 20px;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 .skill_container .skill_content .group_content .in_box.code_box{
@@ -155,68 +154,68 @@
 }
 .clip_test_box{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
     width: 100%;
     height: 300px;
+    padding: 50px;
     border: 10px dashed #000;
+    font-weight: bold;
     font-size: 50px;
     line-height: 60px;
-    font-weight: bold;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     background-image: url(https://cdn.clien.net/web/api/file/F01/10118420/338072d7bbe1da.jpg?w=780&h=30000);
 }
 .mix_blend_mode{
-    position: relative;
     display: block;
+    position: relative;
     width: 100%;
     height: 300px;
     border: 1px solid #000;
 }
 .mix_blend_mode video{
     display: block;
-    width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 .mix_blend_mode h1{
     display: block;
-    margin: 0;
     width: 100%;
     height: 100%;
-    background-color: #000;
-    font-size: 80px;
+    margin: 0;
     color: #fff;
-    mix-blend-mode: multiply;
-    text-align: center;
+    font-size: 80px;
     line-height: 300px;
+    text-align: center;
+    background-color: #000;
+    mix-blend-mode: multiply;
 }
 
 /* 애니메이션 카드 영역 */
 .animationCard{
     display: block;
     position: relative;
-    margin: 20px auto;
     width: 240px;
     height: 240px;
+    margin: 20px auto;
+    background: url(https://static-cse.canva.com/blob/828310/1600w-rssvAb9JL4I.jpg) no-repeat 0 0 / cover;
     border-radius: 20px;
     z-index: 1;
     overflow: hidden;
-    background: url(https://static-cse.canva.com/blob/828310/1600w-rssvAb9JL4I.jpg) no-repeat 0 0 / cover;
 }
 .animationCard__content{
     display: flex;
+    height: 100%;
+    padding: 30px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100%;
-    padding: 30px;
     box-sizing: border-box;
     word-break: keep-all;
     opacity: 0;
@@ -272,9 +271,9 @@
 }
 
 .circleGraph .circleGraph__main .circleGraph__main--graph{
+    display: block;
     position: absolute;
     top: 150px;
-    display: block;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -282,10 +281,10 @@
     clip-path: polygon(0 0, 100% 0%, 100% 50%, 0 50%);
 }
 .circleGraph .circleGraph__sub{
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
-    display: block;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -294,29 +293,29 @@
     transform: translate(-50%, 50%);
 }
 .circleGraph .circleGraph__sub .arrow_box{
-    position: relative;
     display: block;
+    position: relative;
     width: 100%;
     height: 100%;
 }
 .circleGraph .circleGraph__sub .arrow_box:after{
     content: '';
+    display: block;
     position: absolute;
     top: calc(50% - 5px);
     left: 50%;
-    display: block;
     width: 60px;
     height: 9px;
-    margin-left: -60px;
     background: green;
+    margin-left: -60px;
     clip-path: polygon(0 50%, 100% 100%, 100% 0);
 }
 
 .inputBox{
     display: block;
     width: 100%;
-    text-align: center;
     margin: 20px 0 20px;
+    text-align: center;
 }
 .inputBox > input{
     display: inline-block;
@@ -331,63 +330,63 @@
 
 /* spinner css */
 .spinner__box{
-    position: relative;
     display: block;
+    position: relative;
     width: 150px;
     height: 150px;
     margin: 0 auto;
-    background-color: #fff;
     text-align: center;
+    background-color: #fff;
 }
 .spinner__box--loader{
-    position: relative;
     display: inline-block;
-    vertical-align: top;
+    position: relative;
     width: 150px;
     height: 150px;
-    border-radius: 50%;
     margin: 0;
     background: linear-gradient(50deg, #1c90fb 26%, rgba(255, 255, 255, 0) 59%);
-    clip-path: polygon(54% 0, 50% 50%, 100% 50%, 100% 100%, 0 100%, 0 50%, 0 0);
     -webkit-animation: load 1.4s infinite linear;
     animation: load 1.4s infinite linear;
+    vertical-align: top;
+    border-radius: 50%;
+    clip-path: polygon(54% 0, 50% 50%, 100% 50%, 100% 100%, 0 100%, 0 50%, 0 0);
     -webkit-transform: translateZ(0);
     -ms-transform: translateZ(0);
     transform: translateZ(0);
 }
 .spinner__box--loader:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 50%;
     height: 50%;
     background: #1c90fb;
     border-radius: 100% 0 0 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: '';
 }
 .spinner__box--loader:after{
     content: '';
-    background: #fff;
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    margin: auto;
     position: absolute;
     top: 0;
-   left: 0;
-    bottom: 0;
     right: 0;
+    bottom: 0;
+   left: 0;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    background: #fff;
+    border-radius: 50%;
 }
 .spinner__box--circle{
     display: block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
     position: absolute;
     top: 0;
     left: 50%;
-    margin-left: -5px;
+    width: 10px;
+    height: 10px;
     background: #1c90fb;
+    border-radius: 50%;
+    margin-left: -5px;
     clip-path: circle(50% at 50% 50%);
 }
 
@@ -399,8 +398,8 @@
     height: 100px;
 }
 .svg_spinner_box .svg_spinner{
-    position: relative;
     display: block;
+    position: relative;
     width: 100%;
     height: 100%;
     -webkit-animation: load 1.4s infinite linear;
@@ -422,24 +421,24 @@
 }
 .svg_spinner_box .svg_spinner .svg_circle{
   display: block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
   position: absolute;
   top: 0;
   left: 50%;
-  margin-left: -5px;
+  width: 10px;
+  height: 10px;
   background: #1c90fb;
+  border-radius: 50%;
+  margin-left: -5px;
 }
 .svg_spinner_box .svg_spinner_text{
     display: block;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #1c90fb;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: -0.5px;
-    color: #1c90fb;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
 }
 .svg_spinner_box .svg_spinner_text > em{
@@ -497,22 +496,22 @@
 
 /* 코드 뷰어 */
 .code_view_box{
-    text-align: left;
     margin: 20px auto;
+    text-align: left;
 }
 .code_view_box pre code.hljs{
-    max-height: 300px;
     font-size: 13px;
     line-height: 19px;
+    max-height: 300px;
 }
 
 /* 미디어쿼리 in 2022 */
 .media__test{
-    position:relative;
     display: block;
-    margin-top: 10px;
+    position:relative;
     width: 100%;
     height: 300px;
+    margin-top: 10px;
     background-color: yellow;
 }
 .media__test:after{
@@ -520,11 +519,11 @@
     position: absolute;
     top: 10px;
     left: 10px;
+    color: #000;
+    font-weight: bold;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: -0.5px;
-    color: #000;
-    font-weight: bold;
 }
 @media (width <= 1100px){
     .media__test:after{
@@ -535,29 +534,29 @@
 /* 흐르는 컵 */
 
 .cup{
-    position: relative;
     display: block;
+    position: relative;
     width: 150px;
     height: 180px;
     margin: 0 auto;
     border: 6px solid #000;
+    background: url(https://image.ibb.co/fmHm66/wave.png);
+    animation: filling 10s ease-in-out infinite;
     border-radius: 15px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background: url(https://image.ibb.co/fmHm66/wave.png);
     background-position: 0 350px;
     background-repeat: repeat-x;
-    animation: filling 10s ease-in-out infinite;
     box-shadow: 0 0 0 6px, 0 20px 35px rgba(0,0,0,1);
 }
 .cup:before{
     content: '';
     position: absolute;
+    top: 30px;
+    right: -75px;
     width: 50px;
     height: 80px;
     border: 12px solid #000;
-    right: -75px;
-    top: 30px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
 }
