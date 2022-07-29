@@ -48,6 +48,9 @@
     text-align: center;
     background-color: #1c90fb;
 }
+.skill_container .skill_content .group .group_title > p{
+    color: #fff;
+}
 .skill_container .skill_content .group .group_content{
     display: block;
     position: relative;
