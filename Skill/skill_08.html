@@ -26,7 +26,8 @@
                     <div class="group_content">
                         <div class="text_wrap">
                             <ul class="text_list">
-                                <li class="item"></li>
+                                <li class="item">프로젝트 작업 중 엑셀과 같은 테이블을 작업해야되는 일이 생겼다.</li>
+
                             </ul>
                             
                         </div>
@@ -39,7 +40,7 @@
                     </div>
                     <div class="group_content">
                         <!-- box에 높이에 대한 기준이 잡혀야된다. -->
-                        <div class="fixTable_wrap ie" style="height: 500px;">
+                        <div class="fixTable_wrap" style="height: 500px;">
                             <!-- 헤더 영역 -->
                             <div class="fixTable_header">
                                 <div class="th_row">
@@ -262,7 +263,7 @@
                                             <p class="col_text">00h</p>
                                         </div>
                                     </div>
-                                    <button type="button" class="btn_row"></button>
+                                    
                                 </div>
                                 <div class="row">
                                     <div class="fixTable_td type_fix ">
@@ -372,7 +373,7 @@
                                             <p class="col_text">00h</p>
                                         </div>
                                     </div>
-                                    <button type="button" class="btn_row"></button>
+                                    
                                 </div>
                                 <div class="row">
                                     <div class="fixTable_td type_fix ">
@@ -482,7 +483,7 @@
                                             <p class="col_text">00h</p>
                                         </div>
                                     </div>
-                                    <button type="button" class="btn_row"></button>
+                                    
                                 </div>
                                 <div class="row">
                                     <div class="fixTable_td type_fix ">
@@ -592,7 +593,7 @@
                                             <p class="col_text">00h</p>
                                         </div>
                                     </div>
-                                    <button type="button" class="btn_row"></button>
+                                    
                                 </div>
                                 <div class="row">
                                     <div class="fixTable_td type_fix ">
@@ -702,7 +703,7 @@
                                             <p class="col_text">00h</p>
                                         </div>
                                     </div>
-                                    <button type="button" class="btn_row"></button>
+                                    
                                 </div>
                                 <div class="row">
                                     <div class="fixTable_td type_fix ">
@@ -812,7 +813,7 @@
                                             <p class="col_text">00h</p>
                                         </div>
                                     </div>
-                                    <button type="button" class="btn_row"></button>
+                                    
                                 </div>
                                 <div class="row">
                                     <div class="fixTable_td type_fix ">
@@ -922,7 +923,7 @@
                                             <p class="col_text">00h</p>
                                         </div>
                                     </div>
-                                    <button type="button" class="btn_row"></button>
+                                    
                                 </div>
                                 <div class="row">
                                     <div class="fixTable_td type_fix ">
@@ -1032,7 +1033,7 @@
                                             <p class="col_text">00h</p>
                                         </div>
                                     </div>
-                                    <button type="button" class="btn_row"></button>
+                                    
                                 </div>
                                 <div class="row">
                                     <div class="fixTable_td type_fix ">
@@ -1142,7 +1143,7 @@
                                             <p class="col_text">00h</p>
                                         </div>
                                     </div>
-                                    <button type="button" class="btn_row"></button>
+                                    
                                 </div>
                                 <div class="row">
                                     <div class="fixTable_td type_fix ">
@@ -1252,7 +1253,7 @@
                                             <p class="col_text">00h</p>
                                         </div>
                                     </div>
-                                    <button type="button" class="btn_row"></button>
+                                    
                                 </div>
                                 <div class="row">
                                     <div class="fixTable_td type_fix ">
@@ -1362,7 +1363,7 @@
                                             <p class="col_text">00h</p>
                                         </div>
                                     </div>
-                                    <button type="button" class="btn_row"></button>
+                                    
                                 </div>
                             </div>
                             <!-- //바디 영역 -->
@@ -1380,26 +1381,37 @@
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 
 <script>
+    // 틀고정 좌우 스크롤 너비값 계산 식
+    $(document).ready(function() {
+            var th_boxWidth = $(".fixTable_header .type_fix").outerWidth();
+            var td_boxWidth = $(".fixTable_body .type_move").outerWidth();
+            $('.fixTable_body .row').width(th_boxWidth + td_boxWidth + 'px');
+            $('.fixTable_header .th_row').width(th_boxWidth + td_boxWidth + 'px');
+        });
 
-const container = document.querySelector('.fixTable_body');
-const fixBox = document.querySelector('.type_fix');
+    // ie 대응 스크롤
+    var agent = navigator.userAgent.toLowerCase();
 
-container.addEventListener('scroll', function() {
-//   valueDom.innerText = this.scrollLeft;
-  console.log(container.scrollLeft)
-  var scrollnum = container.scrollLeft + 'px';
-  console.log(scrollnum)
-  if(container.scrollLeft != 0 ){
-    $('.fixTable_body .type_fix').css({"left": scrollnum});
-  } else{
-    $('. fixTable_body.type_fix').css("left", "0px");
-  }
-})
+    if( navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1 || (agent.indexOf("msie") != -1)) {
+        $('.fixTable_wrap').addClass('ie');
+    }
 
-
-
-
+    const container = document.querySelector('.fixTable_body');
+    const fixBox = document.querySelector('.type_fix'); // 고정 박스 선택
     
+    container.addEventListener('scroll', function() {
+      console.log(container.scrollLeft)
+      var scrollnum = container.scrollLeft + 'px';
+
+      if(container.scrollLeft != 0 ){
+        $('.fixTable_body .type_fix').css({"transform": 'translateX' + '(' + scrollnum + ')'});
+        $('.fixTable_th.type_move').css({"transform": 'translateX' + '(-' + scrollnum + ')'});
+      } else{
+        $('.fixTable_body .type_fix').css("transform", "translateX(0)");
+        $('.fixTable_th.type_move').css("transform", "translateX(0)");
+      }
+    })
+        
 </script>
 
 
