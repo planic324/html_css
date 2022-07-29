@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="css/skill.css">
+<link rel="stylesheet" type="text/css" href="css/table.css">
+<!-- [D] 디자인 확인 목적으로 생성한 js입니다. 개발시 삭제 부탁드립니다 -->
+<script src="skill.js"></script>
+
+<title>webp</title>
+</head>
+<body>
+    <div class="skill">
+        <div class="skill_container">
+            <div class="skill_content">
+
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">틀고정 테이블(엑셀 처럼 상/좌 고정하는 테이블) 만들기:)</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW?</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="text_wrap">
+                            <ul class="text_list">
+                                <li class="item"></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>결과물</p>
+                    </div>
+                    <div class="group_content">
+                        <!-- box에 높이에 대한 기준이 잡혀야된다. -->
+                        <div class="fixTable_wrap ie" style="height: 500px;">
+                            <!-- 헤더 영역 -->
+                            <div class="fixTable_header">
+                                <div class="th_row">
+                                    <!-- 헤더 / 좌 영역 -->
+                                <div class="fixTable_th type_fix">
+                                    <p class="text">이름</p>
+                                    <p class="text">근무통계</p>
+                                </div>
+                                <!-- //헤더 / 좌 영역 -->
+
+                                <!-- 헤더 / 우 영역 -->
+                                <div class="fixTable_th type_move">
+                                    <div class="col">
+                                        <p class="day">1<em>(수)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">2<em>(목)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">3<em>(금)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day sat">4<em>(토)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day sun">5<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">6<em>(월)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">7<em>(화)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">8<em>(수)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">9<em>(목)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">10<em>(금)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">11<em>(토)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">12<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">13<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">14<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">15<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">16<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">17<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">18<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">19<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">20<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">21<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">22<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">23<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">24<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">25<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">26<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">27<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">28<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">29<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">30<em>(일)</em></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="day">31<em>(일)</em></p>
+                                    </div>
+                                </div>
+                                <!-- //헤더 / 우 영역 -->
+                                </div>
+                                
+                            </div>
+                            <!-- //헤더 영역 -->
+
+                            <!-- 바디 영역 -->
+                            <div class="fixTable_body">
+                                <div class="row">
+                                    <div class="fixTable_td type_fix ">
+                                        <div class="info_name">
+                                            <p class="main_text">홍길동 연구원</p>
+                                            <p class="sub_text">서비스개발 Unit &gt; 개발1Cell</p>
+                                        </div>
+                                        <div class="info_date">
+                                            <p class="day"><em>0</em>/00일</p>
+                                            <p class="time"><em>00h 00m</em>/000h</p>
+                                        </div>
+                                    </div>
+                                    <div class="fixTable_td type_move">
+                                        <div class="col">
+                                            <p class="col_text red">00h</p>
+                                            <p class="col_text green">00h</p>
+                                            <p class="col_text blue">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text red">00h 00m</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn_row"></button>
+                                </div>
+                                <div class="row">
+                                    <div class="fixTable_td type_fix ">
+                                        <div class="info_name">
+                                            <p class="main_text">홍길동 연구원</p>
+                                            <p class="sub_text">서비스개발 Unit &gt; 개발1Cell</p>
+                                        </div>
+                                        <div class="info_date">
+                                            <p class="day"><em>0</em>/00일</p>
+                                            <p class="time"><em>00h 00m</em>/000h</p>
+                                        </div>
+                                    </div>
+                                    <div class="fixTable_td type_move">
+                                        <div class="col">
+                                            <p class="col_text red">00h</p>
+                                            <p class="col_text green">00h</p>
+                                            <p class="col_text blue">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text red">00h 00m</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn_row"></button>
+                                </div>
+                                <div class="row">
+                                    <div class="fixTable_td type_fix ">
+                                        <div class="info_name">
+                                            <p class="main_text">홍길동 연구원</p>
+                                            <p class="sub_text">서비스개발 Unit &gt; 개발1Cell</p>
+                                        </div>
+                                        <div class="info_date">
+                                            <p class="day"><em>0</em>/00일</p>
+                                            <p class="time"><em>00h 00m</em>/000h</p>
+                                        </div>
+                                    </div>
+                                    <div class="fixTable_td type_move">
+                                        <div class="col">
+                                            <p class="col_text red">00h</p>
+                                            <p class="col_text green">00h</p>
+                                            <p class="col_text blue">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text red">00h 00m</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn_row"></button>
+                                </div>
+                                <div class="row">
+                                    <div class="fixTable_td type_fix ">
+                                        <div class="info_name">
+                                            <p class="main_text">홍길동 연구원</p>
+                                            <p class="sub_text">서비스개발 Unit &gt; 개발1Cell</p>
+                                        </div>
+                                        <div class="info_date">
+                                            <p class="day"><em>0</em>/00일</p>
+                                            <p class="time"><em>00h 00m</em>/000h</p>
+                                        </div>
+                                    </div>
+                                    <div class="fixTable_td type_move">
+                                        <div class="col">
+                                            <p class="col_text red">00h</p>
+                                            <p class="col_text green">00h</p>
+                                            <p class="col_text blue">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text red">00h 00m</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn_row"></button>
+                                </div>
+                                <div class="row">
+                                    <div class="fixTable_td type_fix ">
+                                        <div class="info_name">
+                                            <p class="main_text">홍길동 연구원</p>
+                                            <p class="sub_text">서비스개발 Unit &gt; 개발1Cell</p>
+                                        </div>
+                                        <div class="info_date">
+                                            <p class="day"><em>0</em>/00일</p>
+                                            <p class="time"><em>00h 00m</em>/000h</p>
+                                        </div>
+                                    </div>
+                                    <div class="fixTable_td type_move">
+                                        <div class="col">
+                                            <p class="col_text red">00h</p>
+                                            <p class="col_text green">00h</p>
+                                            <p class="col_text blue">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text red">00h 00m</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn_row"></button>
+                                </div>
+                                <div class="row">
+                                    <div class="fixTable_td type_fix ">
+                                        <div class="info_name">
+                                            <p class="main_text">홍길동 연구원</p>
+                                            <p class="sub_text">서비스개발 Unit &gt; 개발1Cell</p>
+                                        </div>
+                                        <div class="info_date">
+                                            <p class="day"><em>0</em>/00일</p>
+                                            <p class="time"><em>00h 00m</em>/000h</p>
+                                        </div>
+                                    </div>
+                                    <div class="fixTable_td type_move">
+                                        <div class="col">
+                                            <p class="col_text red">00h</p>
+                                            <p class="col_text green">00h</p>
+                                            <p class="col_text blue">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text red">00h 00m</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn_row"></button>
+                                </div>
+                                <div class="row">
+                                    <div class="fixTable_td type_fix ">
+                                        <div class="info_name">
+                                            <p class="main_text">홍길동 연구원</p>
+                                            <p class="sub_text">서비스개발 Unit &gt; 개발1Cell</p>
+                                        </div>
+                                        <div class="info_date">
+                                            <p class="day"><em>0</em>/00일</p>
+                                            <p class="time"><em>00h 00m</em>/000h</p>
+                                        </div>
+                                    </div>
+                                    <div class="fixTable_td type_move">
+                                        <div class="col">
+                                            <p class="col_text red">00h</p>
+                                            <p class="col_text green">00h</p>
+                                            <p class="col_text blue">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text red">00h 00m</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn_row"></button>
+                                </div>
+                                <div class="row">
+                                    <div class="fixTable_td type_fix ">
+                                        <div class="info_name">
+                                            <p class="main_text">홍길동 연구원</p>
+                                            <p class="sub_text">서비스개발 Unit &gt; 개발1Cell</p>
+                                        </div>
+                                        <div class="info_date">
+                                            <p class="day"><em>0</em>/00일</p>
+                                            <p class="time"><em>00h 00m</em>/000h</p>
+                                        </div>
+                                    </div>
+                                    <div class="fixTable_td type_move">
+                                        <div class="col">
+                                            <p class="col_text red">00h</p>
+                                            <p class="col_text green">00h</p>
+                                            <p class="col_text blue">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text red">00h 00m</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn_row"></button>
+                                </div>
+                                <div class="row">
+                                    <div class="fixTable_td type_fix ">
+                                        <div class="info_name">
+                                            <p class="main_text">홍길동 연구원</p>
+                                            <p class="sub_text">서비스개발 Unit &gt; 개발1Cell</p>
+                                        </div>
+                                        <div class="info_date">
+                                            <p class="day"><em>0</em>/00일</p>
+                                            <p class="time"><em>00h 00m</em>/000h</p>
+                                        </div>
+                                    </div>
+                                    <div class="fixTable_td type_move">
+                                        <div class="col">
+                                            <p class="col_text red">00h</p>
+                                            <p class="col_text green">00h</p>
+                                            <p class="col_text blue">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text red">00h 00m</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn_row"></button>
+                                </div>
+                                <div class="row">
+                                    <div class="fixTable_td type_fix ">
+                                        <div class="info_name">
+                                            <p class="main_text">홍길동 연구원</p>
+                                            <p class="sub_text">서비스개발 Unit &gt; 개발1Cell</p>
+                                        </div>
+                                        <div class="info_date">
+                                            <p class="day"><em>0</em>/00일</p>
+                                            <p class="time"><em>00h 00m</em>/000h</p>
+                                        </div>
+                                    </div>
+                                    <div class="fixTable_td type_move">
+                                        <div class="col">
+                                            <p class="col_text red">00h</p>
+                                            <p class="col_text green">00h</p>
+                                            <p class="col_text blue">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text red">00h 00m</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn_row"></button>
+                                </div>
+                                <div class="row">
+                                    <div class="fixTable_td type_fix ">
+                                        <div class="info_name">
+                                            <p class="main_text">홍길동 연구원</p>
+                                            <p class="sub_text">서비스개발 Unit &gt; 개발1Cell</p>
+                                        </div>
+                                        <div class="info_date">
+                                            <p class="day"><em>0</em>/00일</p>
+                                            <p class="time"><em>00h 00m</em>/000h</p>
+                                        </div>
+                                    </div>
+                                    <div class="fixTable_td type_move">
+                                        <div class="col">
+                                            <p class="col_text red">00h</p>
+                                            <p class="col_text green">00h</p>
+                                            <p class="col_text blue">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text red">00h 00m</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="col_text">00h</p>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn_row"></button>
+                                </div>
+                            </div>
+                            <!-- //바디 영역 -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+<script>
+
+const container = document.querySelector('.fixTable_body');
+const fixBox = document.querySelector('.type_fix');
+
+container.addEventListener('scroll', function() {
+//   valueDom.innerText = this.scrollLeft;
+  console.log(container.scrollLeft)
+  var scrollnum = container.scrollLeft + 'px';
+  console.log(scrollnum)
+  if(container.scrollLeft != 0 ){
+    $('.fixTable_body .type_fix').css({"left": scrollnum});
+  } else{
+    $('. fixTable_body.type_fix').css("left", "0px");
+  }
+})
+
+
+
+
+    
+</script>
+
+
+</html>

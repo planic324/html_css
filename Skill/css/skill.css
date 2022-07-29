@@ -595,3 +595,9 @@
     40%{transform: translateX(0) scale(1) rotate(0deg);}
     100%{transform: translateX(0) scale(1) rotate(630deg);}
 }
+
+.joom_out{
+    image-rendering: -webkit-optimize-contrast;
+    /* transform: translateZ(0); */
+    /* backface-visibility: hidden; */
+}
