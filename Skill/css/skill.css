@@ -604,3 +604,86 @@
     /* transform: translateZ(0); */
     /* backface-visibility: hidden; */
 }
+
+/* 애니메이션이 들어간 탭 */
+.tab_wrap {
+    display: flex;
+    position: relative;
+    width: 500px;
+    margin: 50px auto;
+    background: #777;
+    border-radius: 12px;
+}
+.tab_wrap .btn_tabs{
+    display: block;
+    text-transform: uppercase;
+    width: 20%;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #fff;
+    padding: 12px 10px 10px;
+    box-sizing: border-box;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    border-radius: 12px;
+    z-index: 1;
+    font-weight: 400;
+}
+.tab_wrap .animation{
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: #1c90fb;
+    border-radius: 12px;
+    transition: all .5s ease 0s;
+
+}
+.tab_wrap .btn_tabs.active{
+    background-color: #1c90fb;
+    color: #fff;
+}
+.tab_wrap .btn_tabs:nth-child(1){
+    width: 20%;
+}
+.tab_wrap .start_home0,
+.tab_wrap .btn_tabs:nth-child(1):hover~.animation{
+    width: 20%;
+    left: 0;
+}
+.tab_wrap .btn_tabs:nth-child(2){
+    width: 20%;
+}
+.tab_wrap .start_home1,
+.tab_wrap .btn_tabs:nth-child(2):hover~.animation{
+    width: 20%;
+    left: 20%;
+}
+
+.tab_wrap .btn_tabs:nth-child(3){
+    width: 20%;
+}
+.tab_wrap .start_home2,
+.tab_wrap .btn_tabs:nth-child(3):hover~.animation{
+    width: 20%;
+    left: 40%;
+}
+
+.tab_wrap .btn_tabs:nth-child(4){
+    width: 20%;
+}
+.tab_wrap .start_home3,
+.tab_wrap .btn_tabs:nth-child(4):hover~.animation{
+    width: 20%;
+    left: 60%;
+}
+
+.tab_wrap .btn_tabs:nth-child(5){
+    width: 20%;
+}
+.tab_wrap .start_home4,
+.tab_wrap .btn_tabs:nth-child(5):hover~.animation{
+    width: 20%;
+    left: 80%;
+}
