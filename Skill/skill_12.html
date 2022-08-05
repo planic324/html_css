@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="css/skill.css">
+<!-- [D] 디자인 확인 목적으로 생성한 js입니다. 개발시 삭제 부탁드립니다 -->
+<script src="skill.js"></script>
+<!-- Sortable 라이브러리 -->
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
+<title>webp</title>
+</head>
+<body>
+    <div class="skill">
+        <div class="skill_container">
+            <div class="skill_content">
+
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">Drag & Drop</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="text_wrap">
+                            <ul class="text_list">
+                                <li class="item">1. html, css 만으로 계산기를 만들어보자 !</li>
+                                <li class="item">2. 사용언어 : html, css</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>결과물</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="in_box">
+
+                            <form action="" name="calc" class="calc_wrap">
+                                <table class="calc_table">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="4">
+                                                <input type="text" name="display" id="planic" class="viewBox" value="" readonly>
+                                            </td>
+                                        </tr>
+    
+                                        <tr>
+                                            
+                                            <td>
+                                                <input type="button" value="1" onclick="calc.display.value+='1'">
+                                            </td>
+                                            <td>
+                                                <input type="button" value="2" onclick="calc.display.value+='2'">
+                                            </td>
+                                            <td>
+                                                <input type="button" value="3" onclick="calc.display.value+='3'">
+                                            </td>
+                                            <td>
+                                                <input type="button" class="operator" name="plus" value="+" onclick="calc.display.value+='+'">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="button" value="4" onclick="calc.display.value+='4'">
+                                            </td>
+                                            <td>
+                                                <input type="button" value="5" onclick="calc.display.value+='5'">
+                                            </td>
+                                            <td>
+                                                <input type="button" value="6" onclick="calc.display.value+='6'">
+                                            </td>
+                                            <td>
+                                                <input type="button" class="operator" name="minus" value="-" onclick="calc.display.value+='-'">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="button" value="7" onclick="calc.display.value+='7'">
+                                            </td>
+                                            <td>
+                                                <input type="button" value="8" onclick="calc.display.value+='8'">
+                                            </td>
+                                            <td>
+                                                <input type="button" value="9" onclick="calc.display.value+='9'">
+                                            </td>
+                                            <td>
+                                                <input type="button" class="operator" name="times" value="*" onclick="calc.display.value+='*'">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="button" value="0" onclick="calc.display.value+='0'">
+                                            </td>
+                                            <td>
+                                                <input type="button" id="clear" name="clear" value="C" onclick="calc.display.value=''">
+                                            </td>
+                                            <td>
+                                                <input type="button" class="operator" name="equal" value="=" onclick="calc.display.value =eval(calc.display.value)">
+                                            </td>
+                                            <td>
+                                                <input type="button" class="operator" name="div" value="/" onclick="calc.display.value+='/'">
+                                            </td>
+                                            
+                                        </tr>
+                                    </tbody>
+                                    
+                                </table>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+<!-- <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script> -->
+<script>
+    const dropItems = document.getElementById('drop-items')
+
+    new Sortable(dropItems, {
+        animation: 350,
+        chosenClass: "sortable-chosen",
+        dragClass: "sortable-drag"
+    });
+   
+    
+</script>
+
+<script>
+    
+</script>
+
+</html>

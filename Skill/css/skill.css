@@ -785,3 +785,66 @@
 .sortable-drag{
     opacity: 0;
 }
+
+/* only html/css 계산기 */
+.calc_wrap{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    border: 5px solid #4a4a4a;
+    border-radius: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.calc_table{
+    padding:0;
+    border:0;
+    border-spacing:0px;
+    border-collapse:collapse;
+}
+.calc_table th,
+.calc_table td{
+    padding: 0;
+}
+.calc_table .viewBox{
+    display: block;
+    width: 100%;
+    border: 0;
+    background: #000;
+    color: #fff;
+    font-size: 17px;
+    line-height: 35px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: right;
+    border-radius: 6px;
+}
+.calc_table tr:first-child td{
+    display: block;
+    width: 100%;
+    margin-top: 0;
+}
+.calc_table tr{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 6px;
+}
+.calc_table tr td{
+    width: calc(25% - 4px);
+}
+.calc_table input[type="button"]{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 30px;
+    border: 1px solid #eaeaea;
+    background: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.calc_table input[type="button"]:hover{
+    border-color: #4a4a4a;
+    box-shadow: 0 6px 8px 0 rgb(0,0,0,0.06);
+}
