@@ -897,15 +897,7 @@
     color: #808080;
     opacity: 1;
   }
-  
-  input:-ms-input-placeholder {
-    color: #808080;
-  }
-  
-  input::-ms-input-placeholder {
-    color: #808080;
-  }
-  
+    
   input.active {
     animation: scanning 1s ease 0s 1;
     background: linear-gradient(90deg, #02de0b 50%, #ececec 100%);

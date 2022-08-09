@@ -9,7 +9,7 @@
 <!-- Sortable 라이브러리 -->
 <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
 
-<title>only HTML/CSS 계산기</title>
+<title>scaning password</title>
 </head>
 <body>
     <div class="skill">
@@ -75,23 +75,23 @@
 <!-- <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script> -->
 <script>
     var btn = document.getElementById('reveal');
-var box = document.getElementById('pass');
-var fak = document.getElementById('fakepass');
-const isEmpty = str => !str.trim().length;
+    var box = document.getElementById('pass');
+    var fak = document.getElementById('fakepass');
+    const isEmpty = str => !str.trim().length;
 
-btn.addEventListener('click', function() {
-    fak.innerHTML='';
-    var x = box.value.length;
-    for(var i=0; i<x; i++ ){fak.innerHTML=fak.innerHTML+'&bullet;';}
-    fak.classList.toggle('scan');
-    this.classList.toggle('open');
-    box.classList.toggle('active');
-    (box.type=='password') ? box.type='text' : setTimeout(function(){ box.type='password' }, 500);;	
-});
+    btn.addEventListener('click', function() {
+        fak.innerHTML='';
+        var x = box.value.length;
+        for(var i=0; i<x; i++ ){fak.innerHTML=fak.innerHTML+'&bullet;';}
+        fak.classList.toggle('scan');
+        this.classList.toggle('open');
+        box.classList.toggle('active');
+        (box.type=='password') ? box.type='text' : setTimeout(function(){ box.type='password' }, 500);;	
+    });
 
-box.addEventListener("input", function() {
-  if(!isEmpty(this.value)) btn.removeAttribute('disabled'); else btn.setAttribute('disabled', 'disabled');
-});
+    box.addEventListener("input", function() {
+    if(!isEmpty(this.value)) btn.removeAttribute('disabled'); else btn.setAttribute('disabled', 'disabled');
+    });
    
     
 </script>
