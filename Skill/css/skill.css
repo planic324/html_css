@@ -854,22 +854,7 @@
     --dark-grey: #c5c5c5;
   }
   
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--light-grey);
-    font-family: monospace, Arial, Helvetica, sans-serif;
-  }
   
-  body * {
-    box-sizing: border-box;
-    outline: none;
-  }
   
   .fakepassword_wrap {
     width: 210px;
@@ -877,7 +862,7 @@
     position: relative;
   }
   
-  input {
+  .fakepassword_wrap input {
     background: #ececec;
     border: 0;
     font-size: 1em;
@@ -891,14 +876,15 @@
     z-index: 1;
     height: 40px;
     color: #808080;
+    box-sizing: border-box;
   }
   
-  input::placeholder {
+  .fakepassword_wrap input::placeholder {
     color: #808080;
     opacity: 1;
   }
     
-  input.active {
+  .fakepassword_wrap input.active {
     animation: scanning 1s ease 0s 1;
     background: linear-gradient(90deg, #02de0b 50%, #ececec 100%);
     background-repeat: no-repeat;
@@ -1155,7 +1141,6 @@
   .test_inset_box .test_inset{
     position: absolute;
     display: block;
-    inset-block-start: 50px;
-    inset-block-end: 40px;
+    inset : 40px 30px;
     background: red;
   }
