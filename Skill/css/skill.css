@@ -1144,3 +1144,36 @@
     inset : 40px 30px;
     background: red;
   }
+/* scroll-snap-type 테스트 */
+.snap_scroll_wrap{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 4px solid #000;
+    white-space: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+}
+.snap_scroll_wrap .snap_scroll{
+    scroll-snap-align: start;
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 100%;
+}
+.snap_scroll_wrap .snap_scroll:nth-child(1){
+    background-color: yellow;
+}
+.snap_scroll_wrap .snap_scroll:nth-child(2){
+    background-color: green;
+}
+.snap_scroll_wrap .snap_scroll:nth-child(3){
+    background-color: blue;
+}
+.snap_scroll_wrap .snap_scroll:nth-child(4){
+    background-color: red;
+}
+.snap_scroll_wrap .snap_scroll:nth-child(5){
+    background-color: gray;
+}
