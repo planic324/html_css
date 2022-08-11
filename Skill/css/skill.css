@@ -1177,3 +1177,41 @@
 .snap_scroll_wrap .snap_scroll:nth-child(5){
     background-color: gray;
 }
+
+/* flex gap 활용기 */
+.flex_box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+.flex_box .item{
+    display: block;
+    width: calc(50% - 5px);
+    height: 50px;
+}
+.flex_box .item:nth-child(1){
+    background-color: yellow;
+}
+.flex_box .item:nth-child(2){
+    background-color: green
+}
+.flex_box .item:nth-child(3){
+    background-color: blue;
+}
+.flex_box .item:nth-child(4){
+    background-color: red;
+}
+.flex_box .item:nth-child(5){
+    background-color: gray
+}
+.flex_box .item:nth-child(6){
+    background-color: purple;
+}
+@media all and (max-width: 400px) {
+    .flex_box .item{
+        display: block;
+        width: 100%;
+    }
+    
+}

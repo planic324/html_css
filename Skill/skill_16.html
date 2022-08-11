@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="css/skill.css">
+<!-- [D] 디자인 확인 목적으로 생성한 js입니다. 개발시 삭제 부탁드립니다 -->
+<script src="skill.js"></script>
+<!-- Sortable 라이브러리 -->
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
+<title>css :: scroll-snap-type</title>
+</head>
+<body>
+    <div class="skill">
+        <div class="skill_container">
+            <div class="skill_content">
+
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">flex에 gap사용하기 !</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="text_wrap">
+                            <ul class="text_list">
+                                <li class="item">1. flex에 gap을 이용한 반응형 구조 만들기</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>결과물</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="flex_box">
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+<!-- <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script> -->
+<script>
+    var btn = document.getElementById('reveal');
+    var box = document.getElementById('pass');
+    var fak = document.getElementById('fakepass');
+    const isEmpty = str => !str.trim().length;
+
+    btn.addEventListener('click', function() {
+        fak.innerHTML='';
+        var x = box.value.length;
+        for(var i=0; i<x; i++ ){fak.innerHTML=fak.innerHTML+'&bullet;';}
+        fak.classList.toggle('scan');
+        this.classList.toggle('open');
+        box.classList.toggle('active');
+        (box.type=='password') ? box.type='text' : setTimeout(function(){ box.type='password' }, 500);;	
+    });
+
+    box.addEventListener("input", function() {
+    if(!isEmpty(this.value)) btn.removeAttribute('disabled'); else btn.setAttribute('disabled', 'disabled');
+    });
+   
+    
+</script>
+
+<script>
+    
+</script>
+
+</html>
