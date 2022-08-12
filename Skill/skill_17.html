@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="css/skill.css">
+<!-- [D] 디자인 확인 목적으로 생성한 js입니다. 개발시 삭제 부탁드립니다 -->
+<script src="skill.js"></script>
+<!-- Sortable 라이브러리 -->
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
+<title>css :: Named Gird Lines</title>
+</head>
+<body>
+    <div class="skill">
+        <div class="skill_container">
+            <div class="skill_content">
+
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">Named Gird Lines</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="text_wrap">
+                            <ul class="text_list">
+                                <li class="item">1. named-grid를 제작해보자</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>결과물</p>
+                    </div>
+                    <div class="group_content">
+                        <xmp>
+                            .named_gird_wrap{
+                                display: grid;
+                                width: 300px;
+                                height: 300px;
+                                background: #f8f8f8;
+                                margin: 30px auto;
+                                gap: 10px;
+                                grid-template-columns: 
+                                    [main-start content-start] 2fr
+                                    [content-end aside-start] 1fr
+                                    [aside-end main-end];
+                            }
+                            .named_gird_wrap .named_content{
+                                grid-column: content-start / content-end;
+                                background-color: yellow;
+                            }
+                            .named_gird_wrap .named_aside{
+                                grid-column: aside-start / aside-end;
+                                background-color: green;
+                            }
+                            .named_gird_wrap .named_main{
+                                grid-column: main-start / main-end;
+                                background-color: plum;
+                            }
+                        </xmp>
+                        <div class="named_gird_wrap">
+                            <div class="named_gird_box named_content"></div>
+                            <div class="named_gird_box named_aside"></div>
+                            <div class="named_gird_box named_main"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>해석</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="img_box">
+                            <img src="img/named_grid.jpg" alt="" width="300">
+                        </div>
+                        
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+<!-- <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script> -->
+<script>
+    var btn = document.getElementById('reveal');
+    var box = document.getElementById('pass');
+    var fak = document.getElementById('fakepass');
+    const isEmpty = str => !str.trim().length;
+
+    btn.addEventListener('click', function() {
+        fak.innerHTML='';
+        var x = box.value.length;
+        for(var i=0; i<x; i++ ){fak.innerHTML=fak.innerHTML+'&bullet;';}
+        fak.classList.toggle('scan');
+        this.classList.toggle('open');
+        box.classList.toggle('active');
+        (box.type=='password') ? box.type='text' : setTimeout(function(){ box.type='password' }, 500);;	
+    });
+
+    box.addEventListener("input", function() {
+    if(!isEmpty(this.value)) btn.removeAttribute('disabled'); else btn.setAttribute('disabled', 'disabled');
+    });
+   
+    
+</script>
+
+<script>
+    
+</script>
+
+</html>

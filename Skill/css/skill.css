@@ -59,7 +59,15 @@
     width: 100%;
     height: auto;
 }
-
+.skill_container .skill_content .group .img_box{
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+}
+.skill_container .skill_content .group .img_box > img{
+    display: inline-block;
+    vertical-align: top;
+}
 
 .skill_container .skill_content .vs_box{
     display: flex;
@@ -1214,4 +1222,30 @@
         width: 100%;
     }
     
+}
+
+/* named grid 적용 */
+.named_gird_wrap{
+    display: grid;
+    width: 300px;
+    height: 300px;
+    background: #f8f8f8;
+    margin: 30px auto;
+    gap: 10px;
+    grid-template-columns: 
+        [main-start content-start] 2fr
+        [content-end aside-start] 1fr
+        [aside-end main-end];
+}
+.named_gird_wrap .named_content{
+    grid-column: content-start / content-end;
+    background-color: yellow;
+}
+.named_gird_wrap .named_aside{
+    grid-column: aside-start / aside-end;
+    background-color: green;
+}
+.named_gird_wrap .named_main{
+    grid-column: main-start / main-end;
+    background-color: plum;
 }
