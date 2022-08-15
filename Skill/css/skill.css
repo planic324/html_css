@@ -1302,3 +1302,28 @@
         transform: translateX(-31px);
     }
 }
+
+/* flex와 margin:auto 테스트 */
+.flex_margin_test{
+    display: block;
+    margin: 30px;
+}
+.flex_margin_test .flex_wrap{
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border: 1px solid #777;
+    padding: 10px;
+    border-radius: 12px;
+}
+.flex_margin_test .flex_wrap .item{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: green;
+}
