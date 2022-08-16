@@ -1,0 +1,116 @@
+@import "mixin";
+@font-face{
+    font-family:nanum_square_round;
+    src:local("NanumSquareRoundOTFL"),
+    url(../font/nanum-square-round/NanumSquareRoundOTFL.otf) format("otf"),
+    url(../font/nanum-square-round/NanumSquareRoundL.ttf) format("truetype");
+    font-weight: 100;
+    font-display:fallback;
+}
+@font-face{
+    font-family:nanum_square_round;
+    src:local("NanumSquareRoundOTFR"),
+    url(../font/nanum-square-round/NanumSquareRoundOTFR.otf) format("otf"),
+    url(../font/nanum-square-round/NanumSquareRoundR.ttf) format("truetype");
+    font-weight:400;
+    font-display:fallback;
+}
+
+@font-face{
+    font-family:nanum_square_round;
+    src:local("NanumSquareRoundOTFEB"),
+    url(../font/nanum-square-round/NanumSquareRoundOTFEB.otf) format("otf"),
+    url(../font/nanum-square-round/NanumSquareRoundB.ttf) format("truetype");
+    font-weight:700;
+    font-display:fallback;
+}
+
+body,
+body *{
+    font-family: nanum_square_round;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea,
+img,
+button,
+select {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+    -webkit-text-size-adjust: none;
+}
+img,
+fieldset {
+    border: 0;
+    vertical-align: top;
+}
+em,
+address {
+    font-style: normal;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+textarea {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: transparent;
+    border: 0;
+    word-break: keep-all;
+    word-wrap: break-word
+}
+button {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 0;
+}
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+button:focus,
+button:active {
+    outline: none;
+}
+.fp-watermark{
+    display: none;
+}
