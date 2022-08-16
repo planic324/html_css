@@ -16,6 +16,14 @@ a:hover{text-decoration:none}
 button{cursor:pointer}
 button:active,button:focus{outline:0}
 .fp-watermark{display:none}
+.border_text_impact{position:relative;display:flex;justify-content:center;align-items:center;margin:40px auto;width:300px;height:300px;overflow:hidden}
+.border_text_impact h1{display:block;font-size:22px;line-height:26px;color:#000;z-index:1}
+.border_text_impact::before{content:"";display:block;position:absolute;width:200px;height:140%;background:linear-gradient(#0cf,#d400d4);animation:animate 4s linear infinite}
+.border_text_impact::after{content:"";display:block;position:absolute;background:#fff;inset:4px}
+@keyframes animate{
+0%{transform:rotate(0)}
+100%{transform:rotate(360deg)}
+}
 body{margin:0}
 .skill_container{position:relative}
 .skill_container *{font-weight:700}
@@ -165,7 +173,7 @@ body{margin:0}
 .calc_table tr{display:flex;justify-content:space-between;width:100%;margin-top:6px}
 .calc_table tr td{width:calc(25% - 4px)}
 .calc_table input[type=button]{width:100%;display:inline-block;vertical-align:top;font-size:16px;line-height:30px;border:1px solid #eaeaea;background:0 0;border-radius:6px;cursor:pointer}
-.calc_table input[type=button]:hover{border-color:#4a4a4a;box-shadow:0 6px 8px 0 rgba(0,0,0,.06)}
+.calc_table input[type=button]:hover{border-color:#4a4a4a;box-shadow:0 6px 8px 0 rgb(0,0,0,.06)}
 :root{--light-grey:#e0e0e0;--dark-grey:#c5c5c5}
 .fakepassword_wrap{width:210px;height:40px;position:relative}
 .fakepassword_wrap input{background:#ececec;border:0;font-size:1em;width:100%;box-shadow:.15em .15em .25em var(--dark-grey) inset,-.15em -.15em .25em rgba(255,255,255,.5019607843) inset,.3em .3em .6em var(--dark-grey),-.2em -.2em .5em rgba(255,255,255,.5019607843);border-radius:4px;padding:10px;position:absolute;z-index:1;height:40px;color:grey;box-sizing:border-box}
