@@ -24,7 +24,7 @@ button:active,button:focus{outline:0}
 0%{transform:rotate(0)}
 100%{transform:rotate(360deg)}
 }
-#echart_wrap{position:relative;width:300px;height:300px;margin:40px auto;padding:10px;border:1px solid #000}
+#echart_wrap{position:relative;width:500px;height:500px;margin:40px auto;padding:10px;border:1px solid #000}
 body{margin:0}
 .skill_container{position:relative}
 .skill_container *{font-weight:700}
