@@ -1,0 +1,101 @@
+.clock_container{
+    position: relative;    
+    height: 100%;
+    &::before{
+        content: '';
+        position: absolute;
+        bottom: -150px;
+        width: 100%;
+        height: 60px;
+        background: radial-gradient(rgba(0,0,0,0.2), transparent, transparent);
+        border-radius: 50%;
+    }
+    .box{
+        position: relative;
+        width: 350px;
+        height: 350px;
+        backdrop-filter: blur(25px);
+        border-radius: 50%;
+        border: 1px solid rgba(255,255,255,0.5);
+        // animation: animate 5s ease-in-out infinite;
+        animation-delay: -2.5s;
+        z-index: 1;
+        .analog_clock{
+            position: absolute;
+            inset: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #fff;
+            border-radius: 50%;
+            backdrop-filter: blur(25px);
+            border: 1px solid rgba(0,0,0,0.5);
+            border-bottom: 0;
+            border-right: 0;
+            &::before{
+                content: '';
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                background: #000;
+                border-radius: 50%;
+                z-index: 10000;
+            }
+        }
+        .hour,
+        .min,
+        .sec{
+            position: absolute;
+        }
+        .hour,
+        .hr{
+            width: 210px;
+            height: 210px;
+        }
+        .min,
+        .mn{
+            width: 190px;
+            height: 190px;
+        }
+        .sec,
+        .sc{
+            width: 230px;
+            height: 230px;
+        }
+        .hr,
+        .mn,
+        .sc{
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            border-radius: 50%;
+        }
+        .hr::before{
+            content: '';
+            position: absolute;
+            width: 4px;
+            height: 100px;
+            background: #ff105e;
+            z-index: 12;
+            border-radius: 6px;
+        }
+        .mn::before{
+            content: '';
+            position: absolute;
+            width: 4px;
+            height: 90px;
+            background: #000;
+            z-index: 12;
+            border-radius: 6px;
+        }
+        .sc::before{
+            content: '';
+            position: absolute;
+            width: 2px;
+            height: 150px;
+            background: #000;
+            z-index: 12;
+            border-radius: 6px;
+        }
+    }
+}
