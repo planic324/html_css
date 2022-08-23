@@ -72,6 +72,7 @@ button:active,button:focus{outline:0}
 .ico__box .ico.type_05{transform:translate3d(-50%,-50%,0)}
 .ico__box .ico.type_06{width:16px!important;height:16px!important;transform:translate(-50%,-50%)}
 .ico__box .ico.v2{width:14px;height:14px;background:url(https://static.wehago.com/imgs/common/sp_icon.png) no-repeat -386px -147px/500px 1000px}
+.ico__box .ico.v_svg{width:14px;height:14px;background:url(../skill/img/test_ico.svg) no-repeat 0 0/14px 14px}
 body{margin:0}
 .skill_container{position:relative}
 .skill_container *{font-weight:700}
