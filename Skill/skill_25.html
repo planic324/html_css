@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../css/skill.css">
+
+<title>CSS :: Transform:translate 로 정렬 시 흐리게 보이는 이슈 해결하기</title>
+</head>
+<body>
+    <div class="skill">
+        <div class="skill_container">
+            <div class="skill_content">
+
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">Transform:translate 로 정렬 시 흐리게 보이는 이슈 해결하기</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="text_wrap">
+                            <ul class="text_list">
+                                <li class="item">1. width/height 값이 홀 수인 2배 이미지를 가운데 정렬 시 흐릿하게 보이는 이슈 해결하기 !</li>
+                                <li class="item">2. transform:translate(calc(50% - 0.5px, 50% - 0.5px)) 적용</li>
+                                <li class="item">3. trasnform:translate3d(0, 0, 0) 적용</li>
+                                <li class="item">4. will-chage 적용</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>결과물</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="in_box">
+                            
+                            <div class="ico__box">
+                                <span class="ico type_01"></span>
+                            </div>
+                            <div class="ico__box">
+                                <span class="ico type_02"></span>
+                            </div>
+                            <div class="ico__box">
+                                <span class="ico type_03"></span>
+                            </div>
+                            <div class="ico__box">
+                                <span class="ico type_04"></span>
+                            </div>
+                            <div class="ico__box">
+                                <span class="ico type_05"></span>
+                            </div>
+                            <div class="ico__box">
+                                <span class="ico type_06"></span>
+                            </div>
+                            <hr>
+                            <p>왼쪽부터</p>
+                            <br>
+                            <ul>
+                                <li>1. margin: -7px 0 0 -7px;</li>
+                                <li>2. transform: translate(-50%, -50%);</li>
+                                <li>3. transform: translate(calc(-50% + 0.5px), calc(-50% + 0.5px));</li>
+                                <li>
+                                    4. transform: translate(-50%, -50%);<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;will-change: translate;
+                                </li>
+                                <li>5. transform: translate3d(-50%, -50%, 0);</li>
+                                <li>
+                                    6. width: 16px;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;height: 16px;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;transform: translate(-50%, -50%);
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+<!-- [D] 디자인 확인 목적으로 생성한 js입니다. 개발시 삭제 부탁드립니다 -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script>
+    $('input[type=range]').on('input', function(){
+    var val = $(this).val();
+    $(this).css('background', 'linear-gradient(to right, dodgerblue 0%, dodgerblue '+ val +'%, #d5d4d3 ' + val + '%, #d5d4d3 100%)');
+    });
+</script>
+</html>

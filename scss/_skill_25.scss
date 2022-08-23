@@ -1,0 +1,41 @@
+.ico__box{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 4px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    box-sizing: border-box;
+    .ico{
+        position: absolute;
+        display: block;
+        width: 15px;
+        height: 15px;
+        top: 50%;
+        left: 50%;
+        background: url(https://static.wehago.com/imgs/common/sp_icon.png) no-repeat -366px -147px / 500px 1000px;
+        &.type_01{
+            margin: -7px 0 0 -7px;
+        }
+        &.type_02{
+            transform: translate(-50%, -50%);
+        }
+        &.type_03{
+            transform: translate(calc(-50% + 0.5px), calc(-50% + 0.5px));
+        }
+        &.type_04{
+            transform: translate(-50%, -50%);
+            will-change: translate;
+        }
+        &.type_05{
+            transform: translate3d(-50%, -50%, 0);
+        }
+        &.type_06{
+            width: 16px;
+            height: 16px;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
