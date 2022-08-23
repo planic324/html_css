@@ -16,11 +16,12 @@
         top: 50%;
         left: 50%;
         background: url(https://static.wehago.com/imgs/common/sp_icon.png) no-repeat -366px -147px / 500px 1000px;
+        
         &.type_01{
             margin: -7px 0 0 -7px;
         }
         &.type_02{
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%) translate(-.5px, -.5px);
         }
         &.type_03{
             transform: translate(calc(-50% + 0.5px), calc(-50% + 0.5px));
@@ -33,9 +34,14 @@
             transform: translate3d(-50%, -50%, 0);
         }
         &.type_06{
-            width: 16px;
-            height: 16px;
+            width: 16px !important;
+            height: 16px !important;
             transform: translate(-50%, -50%);
+        }
+        &.v2{
+            width: 14px;
+            height: 14px;
+            background: url(https://static.wehago.com/imgs/common/sp_icon.png) no-repeat -386px -147px / 500px 1000px;
         }
     }
 }

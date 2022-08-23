@@ -66,11 +66,12 @@ button:active,button:focus{outline:0}
 .ico__box{display:inline-block;vertical-align:top;margin:0 4px;position:relative;width:30px;height:30px;border:1px solid #333;border-radius:6px;box-sizing:border-box}
 .ico__box .ico{position:absolute;display:block;width:15px;height:15px;top:50%;left:50%;background:url(https://static.wehago.com/imgs/common/sp_icon.png) no-repeat -366px -147px/500px 1000px}
 .ico__box .ico.type_01{margin:-7px 0 0 -7px}
-.ico__box .ico.type_02{transform:translate(-50%,-50%)}
+.ico__box .ico.type_02{transform:translate(-50%,-50%) translate(-.5px,-.5px)}
 .ico__box .ico.type_03{transform:translate(calc(-50% + .5px),calc(-50% + .5px))}
 .ico__box .ico.type_04{transform:translate(-50%,-50%);will-change:translate}
 .ico__box .ico.type_05{transform:translate3d(-50%,-50%,0)}
-.ico__box .ico.type_06{width:16px;height:16px;transform:translate(-50%,-50%)}
+.ico__box .ico.type_06{width:16px!important;height:16px!important;transform:translate(-50%,-50%)}
+.ico__box .ico.v2{width:14px;height:14px;background:url(https://static.wehago.com/imgs/common/sp_icon.png) no-repeat -386px -147px/500px 1000px}
 body{margin:0}
 .skill_container{position:relative}
 .skill_container *{font-weight:700}
