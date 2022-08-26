@@ -1,29 +1,4 @@
 @import "mixin";
-@font-face{
-    font-family:nanum_square_round;
-    src:local("NanumSquareRoundOTFL"),
-    url(../font/nanum-square-round/NanumSquareRoundOTFL.otf) format("otf"),
-    url(../font/nanum-square-round/NanumSquareRoundL.ttf) format("truetype");
-    font-weight: 100;
-    font-display:fallback;
-}
-@font-face{
-    font-family:nanum_square_round;
-    src:local("NanumSquareRoundOTFR"),
-    url(../font/nanum-square-round/NanumSquareRoundOTFR.otf) format("otf"),
-    url(../font/nanum-square-round/NanumSquareRoundR.ttf) format("truetype");
-    font-weight:400;
-    font-display:fallback;
-}
-
-@font-face{
-    font-family:nanum_square_round;
-    src:local("NanumSquareRoundOTFEB"),
-    url(../font/nanum-square-round/NanumSquareRoundOTFEB.otf) format("otf"),
-    url(../font/nanum-square-round/NanumSquareRoundB.ttf) format("truetype");
-    font-weight:700;
-    font-display:fallback;
-}
 
 body,
 body *{

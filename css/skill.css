@@ -1,7 +1,4 @@
 @charset "UTF-8";
-@font-face{font-family:nanum_square_round;src:local("NanumSquareRoundOTFL"),url(../font/nanum-square-round/NanumSquareRoundOTFL.otf) format("otf"),url(../font/nanum-square-round/NanumSquareRoundL.ttf) format("truetype");font-weight:100;font-display:fallback}
-@font-face{font-family:nanum_square_round;src:local("NanumSquareRoundOTFR"),url(../font/nanum-square-round/NanumSquareRoundOTFR.otf) format("otf"),url(../font/nanum-square-round/NanumSquareRoundR.ttf) format("truetype");font-weight:400;font-display:fallback}
-@font-face{font-family:nanum_square_round;src:local("NanumSquareRoundOTFEB"),url(../font/nanum-square-round/NanumSquareRoundOTFEB.otf) format("otf"),url(../font/nanum-square-round/NanumSquareRoundB.ttf) format("truetype");font-weight:700;font-display:fallback}
 body,body *{font-family:nanum_square_round}
 body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,img,input,legend,li,ol,p,select,table,td,textarea,th,ul{margin:0;padding:0}
 body{background-color:#fff;-webkit-text-size-adjust:none}
@@ -78,6 +75,27 @@ button:active,button:focus{outline:0}
 @keyframes animaition_effect{
 0%,100%{width:0}
 50%{width:100%}
+}
+.js_wrap{position:relative}
+.js_wrap svg{color:hsl(0deg,0%,20%);width:80vw;max-width:35rem;width:100%;height:auto;display:block}
+.js_wrap svg#bee{color:hsl(0deg,0%,10%);position:absolute;width:50px;height:auto}
+.js_wrap .circle_box{display:block;position:absolute;width:280px;height:280px;left:50%;top:0;animation:bee_move 12s infinite linear}
+.js_wrap .circle_box #bee{position:absolute;top:50%;left:-25px;transform:translateY(-50%) rotate(270deg)}
+.js_wrap .circle_box.v2{display:block;position:absolute;width:280px;height:280px;left:0;top:0;animation:bee_move2 12s linear infinite;animation-delay:6s;opacity:0}
+.js_wrap .circle_box.v2 #bee{position:absolute;top:50%;right:-25px;left:auto;transform:translateY(-50%) rotate(270deg)}
+@keyframes bee_move{
+0%{transform:rotate(0);opacity:1}
+25%{transform:rotate(180deg);opacity:1}
+50%{transform:rotate(360deg);opacity:1}
+50.1%{opacity:0;transform:rotate(360deg)}
+100%{opacity:0;transform:rotate(360deg)}
+}
+@keyframes bee_move2{
+0%{transform:rotate(0);opacity:1}
+25%{transform:rotate(-180deg);opacity:1}
+50%{transform:rotate(-360deg);opacity:1}
+50.1%{opacity:0;transform:rotate(-360deg)}
+100%{opacity:0;transform:rotate(-360deg)}
 }
 body{margin:0}
 .skill_container{position:relative}
