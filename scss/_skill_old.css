@@ -1,15 +1,25 @@
-body{
+html, 
+body,
+.skill,
+.skill_container{
     margin: 0;
+    height: 100%;
 }
 .skill_container{
-    position: relative
+    position: relative;
+    height: 100%;
 }
 .skill_container *{
     font-weight: bold;
 }
 .skill_container .skill_content{
     display: block;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 220px;
+    right: 0;
+    bottom: 0;
+    height: 100%;
     padding: 30px;
     background-color: #f8f8f8;
     box-sizing: border-box;

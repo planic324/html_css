@@ -13,6 +13,19 @@ a:hover{text-decoration:none}
 button{cursor:pointer}
 button:active,button:focus{outline:0}
 .fp-watermark{display:none}
+.main_page{display:flex;flex-direction:column;justify-content:center;align-items:center;position:fixed;top:0;left:0;right:0;bottom:0;background:#000}
+.main_page h1{position:relative;display:block;font-size:6.3vw;line-height:1.2;color:#fff;font-weight:700}
+.main_page h1::before{content:"Planic Skill Box";position:absolute;top:0;left:0;width:100%;border-right:1vw solid #adff2f;color:#adff2f;animation:animaition_effect 5s linear infinite;overflow:hidden;white-space:nowrap;padding-right:5px}
+.main_page .link_join{display:block;font-size:3vw;margin-top:4vw;padding:.5vw 2vw .4vw;border:6px solid #fff;border-radius:10px;color:#fff;text-decoration:none}
+.skill_snb{display:flex;flex-direction:column;position:absolute;top:0;left:0;width:220px;height:100%;background-color:#fff;border-right:1px solid #777;z-index:10}
+.skill_snb .skill__title{display:block;padding:24px 30px;box-sizing:border-box;font-size:30px;height:1.2;font-weight:900;color:#4a4a4a;text-align:center;letter-spacing:-.6px;border-bottom:1px solid #777}
+.skill_snb .skill__list{padding:24px 30px;box-sizing:border-box}
+.skill_snb .skill__list--item{display:block;padding:4px 0}
+.skill_snb .skill__list--item:hover>a{color:#1c90fb}
+.skill_snb .skill__list--item.select>a{color:#1c90fb;font-weight:700}
+.skill_snb .skill__list--item>a,.skill_snb .skill__list--item>p{display:block;font-size:18px;line-height:1.2;color:#4a4a4a;font-weight:400}
+.skill_snb .skill__list--item>p{color:#000;font-weight:900;font-size:20px}
+.skill_snb .skill__list--item.sub{box-sizing:border-box;padding-left:15px}
 .border_text_impact{position:relative;display:flex;justify-content:center;align-items:center;margin:40px auto;width:300px;height:300px;overflow:hidden}
 .border_text_impact h1{display:block;font-size:22px;line-height:26px;color:#000;z-index:1}
 .border_text_impact::before{content:"";display:block;position:absolute;width:200px;height:140%;background:linear-gradient(#0cf,#d400d4);animation:animate 4s linear infinite}
@@ -100,10 +113,10 @@ button:active,button:focus{outline:0}
 50.1%{opacity:0;transform:rotate(-360deg)}
 100%{opacity:0;transform:rotate(-360deg)}
 }
-body{margin:0}
-.skill_container{position:relative}
+.skill,.skill_container,body,html{margin:0;height:100%}
+.skill_container{position:relative;height:100%}
 .skill_container *{font-weight:700}
-.skill_container .skill_content{display:block;position:relative;padding:30px;background-color:#f8f8f8;box-sizing:border-box;overflow-y:auto}
+.skill_container .skill_content{display:block;position:absolute;top:0;left:220px;right:0;bottom:0;height:100%;padding:30px;background-color:#f8f8f8;box-sizing:border-box;overflow-y:auto}
 .skill_container .skill_content .pageTitle__box{display:block;position:relative}
 .skill_container .skill_content .pageTitle__box .pageTitle{color:#000;font-size:24px;line-height:1.3em;letter-spacing:-.55px;margin-bottom:30px}
 .skill_container .skill_content .group{display:block;position:relative;border:1px solid #e6e6e6;border-radius:12px;box-shadow:0 6px 8px 0 rgba(0,0,0,.06);box-sizing:border-box;background-color:#fff;overflow:hidden}
