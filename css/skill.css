@@ -113,6 +113,9 @@ button:active,button:focus{outline:0}
 50.1%{opacity:0;transform:rotate(-360deg)}
 100%{opacity:0;transform:rotate(-360deg)}
 }
+.cardList{display:grid;width:100%;height:50vmin;padding:1em;gap:1em;grid-template-columns:repeat(5,1fr);overflow:auto;transition:all .5s ease;box-sizing:border-box}
+.cardList li{padding:0}
+.cardList .card{transform:scale(calc(.25 + var(--shown,1) * .75));transition:all .5s ease;background-color:#9acd32;aspect-ratio:1;border-radius:12px}
 .skill,.skill_container,body,html{margin:0;height:100%}
 .skill_container{position:relative;height:100%}
 .skill_container *{font-weight:700}
