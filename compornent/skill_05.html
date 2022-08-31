@@ -50,41 +50,41 @@
     <script src="skill.js"></script>
 
 
-<!-- 쿠키를 이용한 카운팅 script -->
-<script language="JavaScript"> 
-    expireDate = new Date // 현재의 날짜 객체 생성
-    expireDate.setMonth(expireDate.getMonth()+6) //6개월동안 쿠키를 사용함  
-    hitCt = eval(cookieVal("pageHit"))  // 방문 카운트 변수, cookieVal 함수 실행
-    hitCt++  // 방문 카운트 1 높임
-    document.cookie = "pageHit="+hitCt+";expires=" + expireDate.toGMTString() // 쿠키 갱신 영역  
+    <!-- 쿠키를 이용한 카운팅 script -->
+    <script language="JavaScript"> 
+        expireDate = new Date // 현재의 날짜 객체 생성
+        expireDate.setMonth(expireDate.getMonth()+6) //6개월동안 쿠키를 사용함  
+        hitCt = eval(cookieVal("pageHit"))  // 방문 카운트 변수, cookieVal 함수 실행
+        hitCt++  // 방문 카운트 1 높임
+        document.cookie = "pageHit="+hitCt+";expires=" + expireDate.toGMTString() // 쿠키 갱신 영역  
 
-    function cookieVal(cookieName) {  //cookieVal 함수 선언
-        thisCookie = document.cookie.split("; ")  
-        
-        for (i=0; i < thisCookie.length; i++) {  
-                if (cookieName == thisCookie[i].split("=")[0]) {  
-                return thisCookie[i].split("=")[1]  
-            }  
+        function cookieVal(cookieName) {  //cookieVal 함수 선언
+            thisCookie = document.cookie.split("; ")  
+            
+            for (i=0; i < thisCookie.length; i++) {  
+                    if (cookieName == thisCookie[i].split("=")[0]) {  
+                    return thisCookie[i].split("=")[1]  
+                }  
+            }
+            return 0  
+
+        }  
+
+    </script> 
+
+    <!-- 쿠키제거 script -->
+    <script>
+        function deleteAllCookies() {
+            var cookies = document.cookie.split(";");
+
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i];
+                var eqPos = cookie.indexOf("=");
+                var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+                document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+            }
+            window.location.reload(true); // 강제새로고침(캐시제거)
         }
-        return 0  
-
-    }  
-
-</script> 
-
-<!-- 쿠키제거 script -->
-<script>
-    function deleteAllCookies() {
-        var cookies = document.cookie.split(";");
-
-        for (var i = 0; i < cookies.length; i++) {
-            var cookie = cookies[i];
-            var eqPos = cookie.indexOf("=");
-            var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
-            document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
-        }
-        window.location.reload(true); // 강제새로고침(캐시제거)
-    }
-</script>
+    </script>
 </body>
 </html>
