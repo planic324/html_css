@@ -6,7 +6,48 @@
 <meta http-equiv="Cache-Control" content="no-cache">
 <link rel="stylesheet" type="text/css" href="../css/skill.css">
 
-<script src="skill.js"></script>
+
+
+
+<title>font 꾸미기</title>
+</head>
+<body>
+    <div class="skill dz_font">
+        <div class="skill_container">
+            <!-- snb 불러오는 영역 -->
+            <div id="load_snb"></div>
+            <!-- //snb 불러오는 영역 -->
+            <div class="skill_content">
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">cookie를 이용한 사이트 방문 횟수</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>cookie를 이용한 방문횟수 확인</p>
+                    </div>
+                    <div class="group_content">
+                        
+                        <div class="in_box" style="text-align:center;">
+                            
+                            <h3>  
+                                <script>  
+                                document.write("홈페이지에" + hitCt + "번째 방문자이시네요.")
+                                </script>  
+                            </h3> 
+
+                            <button type="button" class="btn_reset" onclick="deleteAllCookies()">쿠키/캐시 초기화</button>
+                            
+                        </div>
+                        
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="skill.js"></script>
 
 
 <!-- 쿠키를 이용한 카운팅 script -->
@@ -45,42 +86,5 @@
         window.location.reload(true); // 강제새로고침(캐시제거)
     }
 </script>
-
-
-<title>font 꾸미기</title>
-</head>
-<body>
-    <div class="skill dz_font">
-        <div class="skill_container">
-            <div class="skill_content">
-                <div class="pageTitle__box">
-                    <p class="pageTitle dzt_font">cookie를 이용한 사이트 방문 횟수</p>
-                </div>
-
-                <div class="group">
-                    <div class="group_title">
-                        <p>cookie를 이용한 방문횟수 확인</p>
-                    </div>
-                    <div class="group_content">
-                        
-                        <div class="in_box" style="text-align:center;">
-                            
-                            <h3>  
-                                <script>  
-                                document.write("홈페이지에" + hitCt + "번째 방문자이시네요.")
-                                </script>  
-                            </h3> 
-
-                            <button type="button" class="btn_reset" onclick="deleteAllCookies()">쿠키/캐시 초기화</button>
-                            
-                        </div>
-                        
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
 </body>
 </html>
