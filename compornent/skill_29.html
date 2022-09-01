@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/skill.css">
+
+<title>전자시계 만들기ㄴ</title>
+</head>
+<body>
+    <div class="skill">
+        <div class="skill_container">
+          <!-- snb 불러오는 영역 -->
+          <div id="load_snb"></div>
+          <!-- //snb 불러오는 영역 -->
+            <div class="skill_content">
+
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">전자시계 만들기</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="text_wrap">
+                            <ul class="text_list">
+                                <li class="item">HTML/CSS/Javascript</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>CSS 결과물</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="autoClock_wrap">
+                            <div class="autoClock">
+                                <div class="time"></div>
+                            </div>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="skill.js"></script>
+    <script>
+        $('#load_snb').load('snb.html');
+    </script>
+
+    <script>
+      const list = document.querySelector('.cardList');
+      const cardCount = 52;
+
+      const createCard = () => {
+        const element = document.createElement('li');
+        const card = document.createElement('div');
+        card.className = 'card';
+        element.appendChild(card);
+        list.appendChild(element);
+      };
+
+      Array(cardCount).fill().forEach(() => createCard())
+      const cards = document.querySelectorAll('li');
+
+      const handleIntersection = (entrise) => {
+        for(const entry of entrise){
+            entry.target.style.setProperty('--shown', entry.isIntersecting ? 1 : 0)
+        }
+      };
+
+      const observer = new IntersectionObserver(handleIntersection);
+      cards.forEach(card => observer.observe(card))
+    </script>
+</body>
+
+
+
+</html>

@@ -1,0 +1,20 @@
+.autoClock_wrap{
+    height: 100px;
+    width: 300px;
+    position: relative;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    border-radius: 10px;
+    cursor: default;
+    animation: timeAni 1.5s linear infinite;
+    .autoClock_wrap,
+    span{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .autoClock_wrap{
+        z-index: 10;
+        height: 85px;
+    }
+}
