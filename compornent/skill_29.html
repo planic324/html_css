@@ -40,7 +40,7 @@
                     <div class="group_content">
                         <div class="autoClock_wrap">
                             <div class="autoClock">
-                                <div class="time"></div>
+                                <div id="time"></div>
                             </div>
                             <span></span>
                             <span></span>
@@ -61,28 +61,29 @@
     </script>
 
     <script>
-      const list = document.querySelector('.cardList');
-      const cardCount = 52;
-
-      const createCard = () => {
-        const element = document.createElement('li');
-        const card = document.createElement('div');
-        card.className = 'card';
-        element.appendChild(card);
-        list.appendChild(element);
-      };
-
-      Array(cardCount).fill().forEach(() => createCard())
-      const cards = document.querySelectorAll('li');
-
-      const handleIntersection = (entrise) => {
-        for(const entry of entrise){
-            entry.target.style.setProperty('--shown', entry.isIntersecting ? 1 : 0)
+      setInterval(() => {
+        const time = document.querySelector(".autoClock #time");
+        let date = new Date();
+        let hours = date.getHours();
+        let minutes = date.getMinutes();
+        let seconds = date.getSeconds ();
+        let day_night = "AM";
+        
+        if(hours > 12){
+            day_night = "PM";
+            hours = hours -12;
         }
-      };
-
-      const observer = new IntersectionObserver(handleIntersection);
-      cards.forEach(card => observer.observe(card))
+        if(seconds < 10){
+            seconds = "0" + seconds;
+        }
+        if(minutes < 10){
+            minutes = "0" + minutes;
+        }
+        if(hours < 10){
+            hours = "0" + hours;
+        }
+        time.textContent = hours + ":" + minutes + ":" + seconds + " " + day_night; 
+      });
     </script>
 </body>
 
