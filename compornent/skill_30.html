@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/skill.css">
+
+<title>CSS::box-shadow vs drop-shadow</title>
+</head>
+<body>
+    <div class="skill">
+        <div class="skill_container">
+          <!-- snb 불러오는 영역 -->
+          <div id="load_snb"></div>
+          <!-- //snb 불러오는 영역 -->
+            <div class="skill_content">
+
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">box-shadow vs drop-shadow</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="text_wrap">
+                            <ul class="text_list">
+                                <li class="item">drop-shadow를 이미지에 적용해보자!</li>
+                                <li class="item">drop-shadow는 가우시안블러에 가까운 효과를 사용합니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>Box-shadow</p>
+                    </div>
+                    <div class="group_content">
+                        
+                        <div class="shadowBox">
+                            <img src="../compornent/img/mario.png" alt="" width="100px">
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>Drop-shadow</p>
+                    </div>
+                    <div class="group_content">
+                        
+                        <div class="shadowBox type_drop">
+                            <img src="../compornent/img/mario.png" alt="" width="100px">
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="skill.js"></script>
+    <script>
+        $('#load_snb').load('snb.html');
+    </script>
+
+    <script>
+      setInterval(() => {
+        const time = document.querySelector(".autoClock #time");
+        let date = new Date();
+        let hours = date.getHours();
+        let minutes = date.getMinutes();
+        let seconds = date.getSeconds ();
+        let day_night = "AM";
+        
+        if(hours > 12){
+            day_night = "PM";
+            hours = hours -12;
+        }
+        if(seconds < 10){
+            seconds = "0" + seconds;
+        }
+        if(minutes < 10){
+            minutes = "0" + minutes;
+        }
+        if(hours < 10){
+            hours = "0" + hours;
+        }
+        time.textContent = hours + ":" + minutes + ":" + seconds + " " + day_night; 
+      });
+    </script>
+</body>
+
+
+
+</html>

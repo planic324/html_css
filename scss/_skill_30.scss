@@ -1,0 +1,15 @@
+.shadowBox{
+    display: block;
+    position: relative;
+    & > img{
+        display: block;
+        margin: 30px auto;
+        box-shadow: 8px 8px 8px #ff0000;
+    }
+    &.type_drop{
+        & > img{
+            box-shadow: none;
+            filter: drop-shadow(8px 8px 8px #ff0000);
+        }
+    }
+}
