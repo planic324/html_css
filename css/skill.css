@@ -19,13 +19,14 @@ button:active,button:focus{outline:0}
 .main_page .link_join{display:block;font-size:3vw;margin-top:4vw;padding:.5vw 2vw .4vw;border:6px solid #fff;border-radius:10px;color:#fff;text-decoration:none}
 .skill_snb{display:flex;flex-direction:column;position:absolute;top:0;left:0;width:220px;height:100%;background-color:#fff;border-right:1px solid #777;z-index:10}
 .skill_snb .skill__title{display:block;padding:24px 30px;box-sizing:border-box;font-size:30px;height:1.2;font-weight:900;color:#4a4a4a;text-align:center;letter-spacing:-.6px;border-bottom:1px solid #777}
-.skill_snb .skill__list{padding:24px 30px;box-sizing:border-box;height:calc(100% - 85px);overflow:auto}
+.skill_snb .skill__list{padding:24px 15px;box-sizing:border-box;height:calc(100% - 85px);overflow:auto}
 .skill_snb .skill__list--item{display:block;padding:4px 0}
 .skill_snb .skill__list--item:hover>a{color:#1c90fb}
 .skill_snb .skill__list--item.select>a{color:#1c90fb;font-weight:700}
-.skill_snb .skill__list--item>a,.skill_snb .skill__list--item>p{display:block;font-size:14px;line-height:1.2;color:#4a4a4a;font-weight:400}
+.skill_snb .skill__list--item>a,.skill_snb .skill__list--item>p{display:block;font-size:14px;line-height:1.1;letter-spacing:-.6px;color:#4a4a4a;font-weight:400}
 .skill_snb .skill__list--item>p{color:#000;font-weight:900;font-size:16px}
-.skill_snb .skill__list--item.sub{box-sizing:border-box;padding-left:15px}
+.skill_snb .skill__list--item.sub{position:relative;box-sizing:border-box;padding-left:15px}
+.skill_snb .skill__list--item.sub::before{content:"-";display:block;position:absolute;top:0;left:0}
 .border_text_impact{position:relative;display:flex;justify-content:center;align-items:center;margin:40px auto;width:300px;height:300px;overflow:hidden}
 .border_text_impact h1{display:block;font-size:22px;line-height:26px;color:#000;z-index:1}
 .border_text_impact::before{content:"";display:block;position:absolute;width:200px;height:140%;background:linear-gradient(#0cf,#d400d4);animation:animate 4s linear infinite}

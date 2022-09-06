@@ -22,7 +22,7 @@
         border-bottom: 1px solid #777;
     }
     .skill__list{
-        padding: 24px 30px;
+        padding: 24px 15px;
         box-sizing: border-box;
         height: calc(100% - 85px);
         overflow: auto;
@@ -44,7 +44,8 @@
             & > p{
                 display: block;
                 font-size: 14px;
-                line-height: 1.2;
+                line-height: 1.1;
+                letter-spacing: -0.6px;
                 color: #4a4a4a;
                 font-weight: normal;
             }
@@ -54,8 +55,16 @@
                 font-size: 16px;
             }
             &.sub{
+                position: relative;
                 box-sizing: border-box;
                 padding-left: 15px;
+                &::before{
+                    content: '-';
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
             }
 
         }
