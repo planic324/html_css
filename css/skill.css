@@ -130,6 +130,9 @@ button:active,button:focus{outline:0}
 .shadowBox{display:block;position:relative}
 .shadowBox>img{display:block;margin:30px auto;box-shadow:8px 8px 8px red}
 .shadowBox.type_drop>img{box-shadow:none;filter:drop-shadow(8px 8px 8px red)}
+.progress_scroll_wrap{position:relative;display:block;width:600px;margin:30px auto;border:1px solid #4a4a4a}
+.progress_scroll_wrap #progress{background-color:#fd0;height:3px;width:0;position:absolute;top:0;left:0;z-index:1}
+.progress_scroll_wrap .text_box{display:block;width:100%;height:200px;overflow:auto;padding:30px;box-sizing:border-box}
 .skill,.skill_container,body,html{margin:0;height:100%}
 .skill_container{position:relative;height:100%}
 .skill_container *{font-weight:700}
