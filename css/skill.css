@@ -130,8 +130,8 @@ button:active,button:focus{outline:0}
 .shadowBox{display:block;position:relative}
 .shadowBox>img{display:block;margin:30px auto;box-shadow:8px 8px 8px red}
 .shadowBox.type_drop>img{box-shadow:none;filter:drop-shadow(8px 8px 8px red)}
-.progress_scroll_wrap{position:fixed;top:0;left:221px;right:0;display:block;z-index:100}
-.progress_scroll_wrap #progress{background-color:red;height:7px;width:0;position:absolute;top:0;left:0;z-index:10}
+.progress_scroll_wrap{position:fixed;left:231px;right:10px;top:5px;display:block;z-index:100;border-radius:10px;height:20px;overflow:hidden;background-color:rgba(0,0,0,.15)}
+.progress_scroll_wrap #progress{background-color:red;height:100%;width:0;position:absolute;top:0;left:0;z-index:10}
 .progress_text_box{display:block;width:100%;overflow:auto;padding:30px;box-sizing:border-box}
 .progress_text_box>p{font-size:40px;line-height:1.2;text-align:center}
 .skill,.skill_container,body,html{margin:0;height:100%}

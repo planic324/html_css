@@ -1,13 +1,17 @@
 .progress_scroll_wrap{
     position: fixed;
-    top: 0;
-    left: 221px;
-    right: 0;
+    left: 231px;
+    right: 10px;
+    top: 5px;
     display: block;
     z-index: 100;
+    border-radius: 10px;
+    height: 20px;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.15);
     #progress{
         background-color: #ff0000;
-        height: 7px;
+        height: 100%;
         width: 0;
         position: absolute;
         top: 0;
