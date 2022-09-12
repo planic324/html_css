@@ -127,7 +127,7 @@ body,
 }
 .skill_container .skill_content .group_content .text_wrap{
     position: relative;
-    padding: 60px 20px;
+    padding: 40px 20px;
     box-sizing: border-box;
 }
 .skill_container .skill_content .group_content .text_wrap .list_title{
