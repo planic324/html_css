@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/skill.css">
+
+<title>issue :: flex내 overflow-y</title>
+</head>
+<body>
+    <div class="skill">
+        <div class="skill_container ">
+          <!-- snb 불러오는 영역 -->
+          <div id="load_snb"></div>
+          <!-- //snb 불러오는 영역 -->
+            <div class="skill_content type_flex">
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">issue :: flex내 overflow-y</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="text_wrap">
+                            <ul class="text_list">
+                                <li class="item">flex내 overflow-y의 영역 늘어나는 현상 발생</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- flex box 영역 -->
+                <!-- flexBox에 overflow:auto를 해주지 않으면 위로 넘침 -->
+                <div class="flexBox" style="overflow: auto">
+                    <div class="headerBox">
+                        <p>headerBox</p>
+                    </div>
+                    <!-- bodyBox overflow:auto를 해주지 않으면 리스트가 넘침 -->
+                    <div class="bodyBox" style="overflow: auto;">
+                        <!-- bodyList overflow:auto는 기본 -->
+                        <ul class="bodyList">
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+                            <li>1. 동해물과 백두산이</li>
+
+                        </ul>
+                    </div>
+                    <div class="footerBox">
+                        <p>footerBox</p>
+                    </div>
+                </div>
+                <!-- //flex box 영역 -->
+
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="skill.js"></script>
+    <script>
+        $('#load_snb').load('snb.html');
+    </script>
+
+    <script>
+        
+        
+        const scrollBox = document.querySelector('.text_box')
+        const progressBox = document.querySelector('#progress')
+
+        window.addEventListener("scroll", () => {
+            
+            
+            let height = document.documentElement.scrollHeight - window.innerHeight
+            let position = window.scrollY // 스크롤 위치값
+            let width = document.documentElement.clientWidth
+            let bar = position / height * width
+            document.getElementById("progress").style.width = bar + "px";
+
+            
+            
+      });
+      
+    </script>
+</body>
+
+
+
+</html>

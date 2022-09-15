@@ -1,0 +1,50 @@
+.skill_content.type_flex{
+    display: flex !important;
+    flex-direction: column;
+    overflow: visible !important;
+    .group{
+        overflow: visible !important;
+    }
+}
+.flexBox{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    background-color: green;
+    flex: 1;
+    .headerBox{
+        display: block;
+        height: 50px;
+        background-color: yellow;
+        min-height: 50px;
+    }
+    .bodyBox{
+        display: block;
+        flex: 1;
+        .bodyList{
+            display: block;
+            position: relative;
+            overflow-y: auto;
+            height: 100%;
+            padding: 15px;
+            box-sizing: border-box;
+            li{
+                height: 30px;
+                border: 1px solid #000;
+                border-radius: 4px;
+                padding: 0 10px;
+                line-height: 30px;
+                & + li{
+                    margin-top: 6px;
+                }
+            }
+        }
+    }
+    .footerBox{
+        display: block;
+        height: 50px;
+        min-height: 50px;
+        background-color: red;
+    }
+}
