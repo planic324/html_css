@@ -134,7 +134,7 @@ button:active,button:focus{outline:0}
 .progress_scroll_wrap #progress{background-color:red;height:100%;width:0;position:absolute;top:0;left:0;z-index:10}
 .progress_text_box{display:block;width:100%;overflow:auto;padding:30px;box-sizing:border-box}
 .progress_text_box>p{font-size:40px;line-height:1.2;text-align:center}
-.skill_content.type_flex{display:flex!important;flex-direction:column;overflow:visible!important}
+.skill_content.type_flex{display:flex!important;flex-direction:column}
 .skill_content.type_flex .group{overflow:visible!important}
 .flexBox{margin-top:20px;display:flex;flex-direction:column;position:relative;background-color:green;flex:1}
 .flexBox .headerBox{display:block;height:50px;background-color:#ff0;min-height:50px}
