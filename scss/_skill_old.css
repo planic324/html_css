@@ -153,6 +153,16 @@ body,
 .skill_container .skill_content .group_content .text_wrap .text_list .item + .item{
     margin-top: 4px;
 }
+.skill_container .skill_content .group_content .basic_text{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.6px;
+    font-weight: normal;
+    text-align: left;
+}
+.skill_container .skill_content .group_content .basic_text.txt_center{
+    text-align: center;
+}
 .skill_container .skill_content .bg_img{
     display: block;
     position: relative;

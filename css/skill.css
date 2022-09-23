@@ -153,6 +153,7 @@ button:active,button:focus{outline:0}
 .hover_text_impact a::after{content:"";display:block;width:10px;height:10px;position:absolute;bottom:-1px;right:-1px;border-right:2px solid #21edff;border-bottom:2px solid #21edff;transition:.5s;transition-delay:.5s}
 .hover_text_impact a:hover{background-color:#21edff;color:#fff;transition-delay:.5s;box-shadow:3px 1px 10px 10px #21edff}
 .hover_text_impact a:hover::after,.hover_text_impact a:hover::before{width:100%;height:100%}
+.bg_repeat{display:block;width:500px;height:75px;border:1px solid #000;margin:50px auto;resize:both;overflow:auto;background-image:url(../compornent/img/img_monsterball.png)}
 .skill,.skill_container,body,html{margin:0;height:100%}
 .skill_container{position:relative;height:100%}
 .skill_container *{font-weight:700}
@@ -179,6 +180,8 @@ button:active,button:focus{outline:0}
 .skill_container .skill_content .group_content .text_wrap .text_list{display:block;position:relative}
 .skill_container .skill_content .group_content .text_wrap .text_list .item{display:block;color:#4a4a4a;font-size:14px;line-height:1.3em;letter-spacing:-.45px}
 .skill_container .skill_content .group_content .text_wrap .text_list .item+.item{margin-top:4px}
+.skill_container .skill_content .group_content .basic_text{font-size:14px;line-height:18px;letter-spacing:-.6px;font-weight:400;text-align:left}
+.skill_container .skill_content .group_content .basic_text.txt_center{text-align:center}
 .skill_container .skill_content .bg_img{display:block;position:relative;width:400px;height:400px;margin:0 auto;background-image:url(../img/test3.jpg);background-size:cover}
 .support-webp .skill_content .bg_img{background-image:url(../img/test3.webp)}
 .skill_container .skill_content .group_content .in_box{width:600px;padding:20px;margin:0 auto;box-sizing:border-box}
