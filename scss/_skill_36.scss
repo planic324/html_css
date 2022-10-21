@@ -1,0 +1,55 @@
+.inputGroup{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.singleInputBox {
+    display: flex;
+    position: relative;
+    width: 400px;
+    &__input {
+      flex: 1;
+      min-width: 18px;
+      margin: 0 6px;
+      padding-bottom: 4px;
+      border: 1px solid #d3d3d3;
+      border-width: 0 0 2px 0;
+      border-radius: 0;
+      background-color: transparent;
+      font-size: 22px;
+      font-weight: 900;
+      color: rgba(33,33,33,.86);
+      letter-spacing: -.33px;
+      appearance: none;
+      outline: none;
+      text-align: center;
+      box-sizing: border-box;
+      &:first-of-type {
+        margin-left: 0;
+      }
+      &:focus,
+      &:valid{
+        border-color: #1c90fb;
+      }
+    }
+    .inputBox__hint {
+      display: none;
+    }
+    &--warning {
+      .singleInputBox__input {
+        border-color: #ff0000
+      }
+      .inputBox__hint {
+        display: block;
+        color: #ff0000
+      }
+    }
+  }
+  .inputTimeBox {
+    font-size: 14px;
+    font-weight: bold;
+    color: #212121;
+    letter-spacing: -.21px;
+  }
