@@ -63,19 +63,24 @@
     </script>
 
     <script>
-        // 탭없이 이동하기
-        function clickEvent(first,last){
-            if(first.value.length){
-                document.getElementById(last).focus();
+        
+        const onMoveEvent = (event) => {
+            const inputEl = document.getElementsByName(event.target.name)[0];
+            inputEl.value = event.target.value;
+
+            // console.log(inputEl);
+
+            if(event.target.value.length === event.target.maxLength && event.target.nextElementSibling){
+                event.target.nextElementSibling.focus();
             }
-            
+
+            if(event.keyCode === 8){
+                if(event.target.value.length !== event.target.maxLength && event.target.previousElementSibling){
+                    event.target.previousElementSibling.focus();
+                }
+            }
         }
-        $(".singleInputBox__input").keydown(function(e){
-            if (e.keyCode === 8) {
-                $(this).val('');
-                $(this).prev().focus();
-            }                
-        })
+
         
     </script>
 </body>
