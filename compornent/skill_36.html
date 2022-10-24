@@ -40,11 +40,11 @@
 
                         <div class="inputGroup single">
                             <div class="singleInputBox">
-                                <input name="event" target="name" onkeyup="onMoveEvent()" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
-                                <input name="event" target="name" onkeyup="onMoveEvent()" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
-                                <input name="event" target="name" onkeyup="onMoveEvent()" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
-                                <input name="event" target="name" onkeyup="onMoveEvent()" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
-                                <input name="event" target="name" onkeyup="onMoveEvent()" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
+                                <input name="name1" onkeyup="onMoveEvent(event)" class="singleInputBox__input" type="text" maxlength="1" required>
+                                <input name="name2" onkeyup="onMoveEvent(event)" class="singleInputBox__input" type="text" maxlength="1" required>
+                                <input name="name3" onkeyup="onMoveEvent(event)" class="singleInputBox__input" type="text" maxlength="1" required>
+                                <input name="name4" onkeyup="onMoveEvent(event)" class="singleInputBox__input" type="text" maxlength="1" required>
+                                <input name="name5" onkeyup="onMoveEvent(event)" class="singleInputBox__input" type="text" maxlength="1" required>
                             </div>
                             <div class="inputTimeBox">02:08</div>
                         </div>
@@ -55,10 +55,10 @@
     </div>
 
     
-    <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
-    <!-- <script src="skill.js"></script> -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="skill.js"></script>
     <script>
-        // $('#load_snb').load('snb.html');
+        $('#load_snb').load('snb.html');
     </script>
 
     <script>
@@ -67,8 +67,6 @@
             const inputEl = document.getElementsByName(event.target.name)[0];
             console.log(inputEl);
             inputEl.value = event.target.value;
-
-            
 
             if(event.target.value.length === event.target.maxLength && event.target.nextElementSibling){
                 event.target.nextElementSibling.focus();
