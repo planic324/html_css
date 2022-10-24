@@ -40,11 +40,11 @@
 
                         <div class="inputGroup single">
                             <div class="singleInputBox">
-                                <input onkeyup="onMoveEvent" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
-                                <input onkeyup="onMoveEvent" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
-                                <input onkeyup="onMoveEvent" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
-                                <input onkeyup="onMoveEvent" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
-                                <input onkeyup="onMoveEvent" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
+                                <input name="event" target="name" onkeyup="onMoveEvent()" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
+                                <input name="event" target="name" onkeyup="onMoveEvent()" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
+                                <input name="event" target="name" onkeyup="onMoveEvent()" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
+                                <input name="event" target="name" onkeyup="onMoveEvent()" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
+                                <input name="event" target="name" onkeyup="onMoveEvent()" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
                             </div>
                             <div class="inputTimeBox">02:08</div>
                         </div>
@@ -65,9 +65,10 @@
         
         const onMoveEvent = (event) => {
             const inputEl = document.getElementsByName(event.target.name)[0];
+            console.log(inputEl);
             inputEl.value = event.target.value;
 
-            console.log(inputEl);
+            
 
             if(event.target.value.length === event.target.maxLength && event.target.nextElementSibling){
                 event.target.nextElementSibling.focus();
