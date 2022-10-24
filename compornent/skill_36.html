@@ -40,12 +40,11 @@
 
                         <div class="inputGroup single">
                             <div class="singleInputBox">
-                                <!-- [D] 입력완료 필드의 경우 singleInputBox__input--active 추가해주세요. -->
-                                <input onkeyup="clickEvent(this,'sec')" id="ist" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
-                                <input onkeyup="clickEvent(this,'third')" id="sec" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
-                                <input onkeyup="clickEvent(this,'fourth')" id="third" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
-                                <input onkeyup="clickEvent(this,'fifth')" id="fourth" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
-                                <input id="fifth" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
+                                <input onkeyup="onMoveEvent" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
+                                <input onkeyup="onMoveEvent" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
+                                <input onkeyup="onMoveEvent" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
+                                <input onkeyup="onMoveEvent" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
+                                <input onkeyup="onMoveEvent" class="singleInputBox__input" aria-describedby="singleInput" type="text" maxlength="1" required>
                             </div>
                             <div class="inputTimeBox">02:08</div>
                         </div>
@@ -56,10 +55,10 @@
     </div>
 
     
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="skill.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
+    <!-- <script src="skill.js"></script> -->
     <script>
-        $('#load_snb').load('snb.html');
+        // $('#load_snb').load('snb.html');
     </script>
 
     <script>
@@ -68,7 +67,7 @@
             const inputEl = document.getElementsByName(event.target.name)[0];
             inputEl.value = event.target.value;
 
-            // console.log(inputEl);
+            console.log(inputEl);
 
             if(event.target.value.length === event.target.maxLength && event.target.nextElementSibling){
                 event.target.nextElementSibling.focus();
