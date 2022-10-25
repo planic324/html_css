@@ -165,6 +165,16 @@ button:active,button:focus{outline:0}
 .singleInputBox--warning .singleInputBox__input{border-color:red}
 .singleInputBox--warning .inputBox__hint{display:block;color:red}
 .inputTimeBox{font-size:14px;font-weight:700;color:#212121;letter-spacing:-.21px}
+.borderList{display:flex;flex-wrap:wrap;width:600px;margin:30px auto;border:1px solid #eaeaea;border-radius:3px}
+.borderList .item{display:flex;justify-content:center;align-items:center;width:200px;height:200px}
+.borderList .item:nth-child(odd){background-color:#fafafa}
+.borderList .item .borderRadius{display:block;width:150px;height:150px;background:linear-gradient(45deg,#3023ae 0,#f09 100%)}
+.borderList .item .borderRadius__01{border-radius:20% 80% 50% 50%/20% 50% 50% 80%}
+.borderList .item .borderRadius__02{border-radius:50% 50% 50% 50%}
+.borderList .item .borderRadius__03{border-radius:10% 90% 50% 50%/10% 50% 50% 90%}
+.borderList .item .borderRadius__04{border-radius:90% 10% 50% 50%/90% 50% 50% 10%}
+.borderList .item .borderRadius__05{border-radius:50% 50% 20% 80%/50% 20% 80% 50%}
+.borderList .item .borderRadius__06{border-radius:100% 0 100% 0/0 0 100% 100%}
 .skill,.skill_container,body,html{margin:0;height:100%}
 .skill_container{position:relative;height:100%}
 .skill_container *{font-weight:700}

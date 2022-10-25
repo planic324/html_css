@@ -1,0 +1,42 @@
+.borderList{
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: 30px auto;
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
+  .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    &:nth-child(odd){
+      background-color: #fafafa;
+    }
+    .borderRadius{
+      display: block;
+      width: 150px;
+      height: 150px;
+      background:linear-gradient(45deg, #3023AE 0%, #f09 100%);
+      &__01{
+        border-radius: 20% 80% 50% 50% / 20% 50% 50% 80% 
+      }
+      &__02{
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% 
+      }
+      &__03{
+        border-radius: 10% 90% 50% 50% / 10% 50% 50% 90% 
+      }
+      &__04{
+        border-radius: 90% 10% 50% 50% / 90% 50% 50% 10% 
+      }
+      &__05{
+        border-radius: 50% 50% 20% 80% / 50% 20% 80% 50% 
+      }
+      &__06{
+        border-radius: 100% 0% 100% 0% / 0% 0% 100% 100% 
+      }
+    }
+  }
+}
