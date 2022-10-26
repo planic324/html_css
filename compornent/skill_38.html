@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/skill.css">
+
+<title>border-radius</title>
+</head>
+<body>
+    <div class="skill">
+        <div class="skill_container ">
+          <!-- snb 불러오는 영역 -->
+          <div id="load_snb"></div>
+          <!-- //snb 불러오는 영역 -->
+            <div class="skill_content type_flex">
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">border-radius 꾸미기</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="text_wrap">
+                            <ul class="text_list">
+                                <li class="item">border-radius 꾸미기</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>결과물</p>
+                    </div>
+                    <div class="group_content">
+                        <div style="width:100%;height:100;overflow-x:auto;overflow-y:auto">
+                            <table width="430" border="0" cellpadding="3" cellspacing="1" bgcolor="#B8B8B8" nowrap style='table-layout:fixed'>
+                                <tr bgcolor="#A5D4D2" align="center" height="25">
+                                    <td width="35" class="colresize">선택</td>
+                                    <td width="35" class="colresize">순번</td>
+                                    <td width="70" class="colresize">품목명</td>
+                                    <td width="30" class="colresize">수량</td>
+                                    <td width="50" class="colresize">단위</td>
+                                    <td width="70" class="colresize">날짜</td>
+                                    <td width="70" class="colresize">장소</td>
+                                    <td width="70" class="colresize">비고</td>
+                                </tr>
+                                <tr bgcolor="#FFFFFF" height="27" align="center">
+                                    <td>
+                                        <Input type="radio" name="radio">
+                                    </td>
+                                    <td>1</td>
+                                    <td>
+                                        <input type='text' class="input_box">
+                                    </td>
+                                    <td>
+                                        <input type='text' class="input_box">
+                                    </td>
+                                    <td>
+                                        <select class="input_box">
+                                            <option>EA</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input type='text' class="input_box">
+                                    </td>
+                                    <td>
+                                        <input type='text' class="input_box">
+                                    </td>
+                                    <td nowrap class="ellipsis">비고 비고 비고 비고 비고 비고 비고 비고 비고</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="skill.js"></script>
+    <script>
+        $('#load_snb').load('snb.html');
+    </script>
+    <SCRIPT>
+    
+        var mousedown = false; 
+        var td = ""; 
+        var td_width; 
+        var x = 0; 
+    
+        function TCstartColResize(obj){
+            mousedown = true;
+            td = obj;
+            td_width = td.width;
+            x = event.clientX;
+        }
+        function TCColResize(){
+        if (mousedown){
+            var distX = event.x - x; 
+            td.width = parseInt(td_width) + parseInt(distX);
+            }
+        }
+        function TCstopColResize(){
+            mousedown = false;
+            td = '';
+        }
+    
+        function cell_left(obj){
+            if(event.offsetX < 5 && obj.cellIndex!=0)
+            return true;
+            else 
+            return false;
+        }
+        function cell_right(obj){
+            if(event.offsetX > obj.width-4)
+            return true;
+            else 
+            return false;
+        }
+    
+        document.onmousedown = function(){
+        try{
+            var now_mousedown = window.event.srcElement;
+                if(now_mousedown.className.toUpperCase()=="COLRESIZE"){
+                    if( cell_left(now_mousedown) ){
+                    now_mousedown = now_mousedown.parentNode.childNodes[now_mousedown.cellIndex-1];
+                    }else if( !cell_right(now_mousedown) ){
+                    return true;
+                }
+                TCstartColResize(now_mousedown);
+                }
+            }catch(e){ return true; }
+        }
+    
+    
+        document.onmousemove = function(){
+        try{
+            var now_mousemove = window.event.srcElement;
+                if(now_mousemove.className.toUpperCase()=="COLRESIZE" || td!=""){
+    
+    
+                    if( cell_left(now_mousemove) || cell_right(now_mousemove) ){
+                    now_mousemove.style.cursor = "col-resize";
+                    }else{
+                    now_mousemove.style.cursor = "";
+                    }
+    
+                TCColResize(now_mousemove);
+                }else{
+                now_mousemove.style.cursor = "";
+                }
+            }catch(e){ return true; }
+        }
+    
+    
+        document.onmouseup = function(){
+            try{
+            var now_mouseup = window.event.srcElement;
+            //if(now_mouseup.className=="colResize"){
+            TCstopColResize(now_mouseup);
+            //}
+            }catch(e){ return true; }
+        }
+    
+    
+        document.onselectstart = function(){
+            try{
+                if(td != ""){
+                return false;
+                }
+            }catch(e){ return true; }
+        }
+    
+    </SCRIPT>
+</body>
+
+
+
+</html>
