@@ -10,24 +10,36 @@
     bottom: 0;
     background: #000;
     h1{
-        position: relative;
-        display: block;
-        font-size: 6.3vw;
-        line-height: 1.2;
-        color: #fff;
-        font-weight: bold;
-        &::before{
-            content: 'Planic Skill Box';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            border-right: 1vw solid greenyellow;
-            color: greenyellow;
-            animation: animaition_effect 5s linear infinite;
-            overflow:hidden;
-            white-space: nowrap;
-            padding-right: 5px;
+        &.move__bar{
+            position: relative;
+            display: block;
+            font-size: 6.3vw;
+            line-height: 1.2;
+            color: #fff;
+            font-weight: bold;
+            &::before{
+                content: 'Planic Skill Box';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                border-right: 1vw solid greenyellow;
+                color: greenyellow;
+                animation: animaition_effect 5s linear infinite;
+                overflow:hidden;
+                white-space: nowrap;
+                padding-right: 5px;
+            }
+        }
+        &.tictok__version{
+            position: relative;
+            display: block;
+            font-size: 6.3vw;
+            line-height: 1.2;
+            color: #fff;
+            font-weight: bold;
+            text-shadow:  red -4px 0, cyan 4px 0;
+            animation: tictok infinite 0.3s ease;
         }
     }
     .link_join{
@@ -78,5 +90,16 @@
             transition-delay: 0.5s;
             box-shadow: 3px 1px 10px 10px #21edff;
         }
+    }
+}
+@keyframes tictok{
+    0%{
+        text-shadow:  red 0 0, cyan 0 0;
+    }
+    50%{
+        text-shadow:  red -4px -2px, cyan 4px 2px;
+    }
+    100%{
+        text-shadow:  red 0 0, cyan 0 0;
     }
 }
