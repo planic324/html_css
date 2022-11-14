@@ -1,0 +1,3929 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.calendar-4Xp {
+  width: 100%;
+  height: 102.4rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+.calendar-4Xp .main-container-5xi {
+  box-sizing: border-box;
+  padding: 18.8rem 3.6rem 4.6rem 3.6rem;
+  width: 119.9rem;
+  height: 102.4rem;
+  position: absolute;
+  left: 24rem;
+  top: 0;
+  background-color: #fafafa;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #eaecee;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .frame-167-4CN {
+  box-sizing: border-box;
+  padding: 1rem 5.8rem 1rem 6rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 1.2rem 1.2rem 0 0;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .frame-167-4CN .monday-wmx {
+  margin-right: 11.95rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #a7b0b8;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .frame-167-4CN .tuesday-DDg {
+  margin-right: 11.1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #a7b0b8;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .frame-167-4CN .wednesday-8Le {
+  margin-right: 10.8rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #a7b0b8;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .frame-167-4CN .thursday-Fw4 {
+  margin-right: 12.25rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #a7b0b8;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .frame-167-4CN .friday-P1g {
+  margin-right: 12.15rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #a7b0b8;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .frame-167-4CN .saturday-DWW {
+  margin-right: 12.25rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #a7b0b8;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .frame-167-4CN .sunday-xDC {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #a7b0b8;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW {
+  width: 100%;
+  height: 75.8rem;
+  position: relative;
+  border-top: solid 0.1rem #eaecee;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .line-8-wav {
+  width: 112.7rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 0;
+  top: 30.4rem;
+  background-color: #eaecee;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .line-9-E4E {
+  width: 112.7rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 0;
+  top: 45.6rem;
+  background-color: #eaecee;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .line-10-m4A {
+  width: 112.7rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 0;
+  top: 60.7rem;
+  background-color: #eaecee;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .line-7-tuU {
+  width: 112.7rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 0;
+  top: 15.3rem;
+  background-color: #eaecee;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .line-1-eNr {
+  width: 0rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 16.1rem;
+  top: 0;
+  background-color: #eaecee;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .line-2-yvv {
+  width: 0rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 32.2rem;
+  top: 0;
+  background-color: #eaecee;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .line-3-8J2 {
+  width: 0rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 48.3rem;
+  top: 0;
+  background-color: #eaecee;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .line-4-5DG {
+  width: 0.1rem;
+  height: 75.8rem;
+  position: absolute;
+  left: 64.4rem;
+  top: 0;
+  background-color: #eaecee;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .line-5-DqG {
+  width: 0.1rem;
+  height: 75.8rem;
+  position: absolute;
+  left: 80.5rem;
+  top: 0;
+  background-color: #eaecee;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .line-6-wmG {
+  width: 0.1rem;
+  height: 75.8rem;
+  position: absolute;
+  left: 96.6rem;
+  top: 0;
+  background-color: #eaecee;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 4.4rem 1.2rem;
+  width: 16rem;
+  height: 15.2rem;
+  position: absolute;
+  left: 0.1rem;
+  top: 0;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .item-05-8Kx {
+  margin: 0rem 0rem 1.2rem 0.65rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .frame-133-5nv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .frame-133-5nv .rectangle-4-bmG {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .frame-133-5nv .item-1230-7Ui {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .frame-133-5nv .product-planning-cwG {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .auto-group-ksg5-wyY {
+  box-sizing: border-box;
+  padding-top: 0.8rem;
+  width: 100%;
+  row-gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .auto-group-ksg5-wyY .frame-137-5Zx {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .auto-group-ksg5-wyY .frame-137-5Zx .rectangle-4-2zz {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #79d969;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .auto-group-ksg5-wyY .frame-137-5Zx .item-1345-N3G {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .auto-group-ksg5-wyY .frame-137-5Zx .stand-up-VNn {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .auto-group-ksg5-wyY .frame-138-qBk {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .auto-group-ksg5-wyY .frame-138-qBk .rectangle-4-PUA {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ff886b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .auto-group-ksg5-wyY .frame-138-qBk .item-16-30-X4a {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .auto-group-ksg5-wyY .frame-138-qBk .all-devs-eQ6 {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .auto-group-ksg5-wyY .frame-139-yBU {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .auto-group-ksg5-wyY .frame-139-yBU .rectangle-4-Xyg {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ffde4b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .auto-group-ksg5-wyY .frame-139-yBU .item-18-05-sXk {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-132-4qt .frame-137-LKY .auto-group-ksg5-wyY .frame-139-yBU .all-hands-ogJ {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-174-j4A {
+  box-sizing: border-box;
+  padding: 1.2rem 7.35rem 1.2rem 7.45rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 0.1rem;
+  top: 15.3rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-181-9Nn {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 8.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 0.1rem;
+  top: 30.5rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-181-9Nn .item-19-z8W {
+  margin: 0rem 0rem 1.2rem 0.75rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-181-9Nn .frame-137-hHp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-181-9Nn .frame-137-hHp .frame-133-4PG {
+  margin-bottom: 0.8rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-181-9Nn .frame-137-hHp .frame-133-4PG .rectangle-4-obk {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-181-9Nn .frame-137-hHp .frame-133-4PG .item-1230-LLn {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-181-9Nn .frame-137-hHp .frame-133-4PG .product-planning-GES {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-181-9Nn .frame-137-hHp .frame-138-zgE {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-181-9Nn .frame-137-hHp .frame-138-zgE .rectangle-4-kfQ {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ff886b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-181-9Nn .frame-137-hHp .frame-138-zgE .item-16-30-U5c {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-181-9Nn .frame-137-hHp .frame-138-zgE .all-devs-bAE {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-188-7PU {
+  box-sizing: border-box;
+  padding: 1.2rem 1.2rem 8.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 0.1rem;
+  top: 45.6rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-188-7PU .item-26-nkW {
+  margin: 0rem 0rem 1.2rem 0.1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-188-7PU .frame-137-WgW {
+  margin-right: 4.5rem;
+  width: 9.1rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-188-7PU .frame-137-WgW .frame-137-U7Y {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-188-7PU .frame-137-WgW .frame-137-U7Y .rectangle-4-E6i {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #79d969;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-188-7PU .frame-137-WgW .frame-137-U7Y .item-1345-Zen {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-188-7PU .frame-137-WgW .frame-137-U7Y .stand-up-hW6 {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-188-7PU .frame-137-WgW .frame-139-qMQ {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-188-7PU .frame-137-WgW .frame-139-qMQ .rectangle-4-Pti {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ffde4b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-188-7PU .frame-137-WgW .frame-139-qMQ .item-18-05-L3G {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-188-7PU .frame-137-WgW .frame-139-qMQ .all-hands-fLS {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-195-bjt {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 8.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 0.1rem;
+  top: 60.7rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-195-bjt .item-02-WM4 {
+  margin: 0rem 0rem 1.2rem 0.65rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-195-bjt .frame-137-cez {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-195-bjt .frame-137-cez .frame-133-NeA {
+  margin-bottom: 0.8rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-195-bjt .frame-137-cez .frame-133-NeA .rectangle-4-ixv {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-195-bjt .frame-137-cez .frame-133-NeA .item-1230-r3Y {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-195-bjt .frame-137-cez .frame-133-NeA .product-planning-Nna {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-195-bjt .frame-137-cez .frame-138-unW {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-195-bjt .frame-137-cez .frame-138-unW .rectangle-4-g2a {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ff886b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-195-bjt .frame-137-cez .frame-138-unW .item-16-30-cgv {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-195-bjt .frame-137-cez .frame-138-unW .all-devs-kHL {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-168-GWa {
+  box-sizing: border-box;
+  padding: 1.2rem 1.2rem 8.4rem 1.2rem;
+  width: 16rem;
+  height: 15.2rem;
+  position: absolute;
+  left: 16.2rem;
+  top: 0;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-168-GWa .item-06-NpW {
+  margin-bottom: 1.2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-168-GWa .frame-137-VeE {
+  margin-right: 4.5rem;
+  width: 9.1rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-168-GWa .frame-137-VeE .frame-137-F7c {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-168-GWa .frame-137-VeE .frame-137-F7c .rectangle-4-Pjc {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #79d969;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-168-GWa .frame-137-VeE .frame-137-F7c .item-1345-wFL {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-168-GWa .frame-137-VeE .frame-137-F7c .stand-up-UFG {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-168-GWa .frame-137-VeE .frame-139-Quc {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-168-GWa .frame-137-VeE .frame-139-Quc .rectangle-4-n14 {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ffde4b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-168-GWa .frame-137-VeE .frame-139-Quc .item-18-05-XDY {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-168-GWa .frame-137-VeE .frame-139-Quc .all-hands-rWi {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-175-nfG {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 8.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 16.2rem;
+  top: 15.3rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-175-nfG .item-13-gke {
+  margin: 0rem 0rem 1.2rem 0.75rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-175-nfG .frame-137-cPQ {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-175-nfG .frame-137-cPQ .frame-133-mGJ {
+  margin-bottom: 0.8rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-175-nfG .frame-137-cPQ .frame-133-mGJ .rectangle-4-utJ {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-175-nfG .frame-137-cPQ .frame-133-mGJ .item-1230-eqt {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-175-nfG .frame-137-cPQ .frame-133-mGJ .product-planning-azS {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-175-nfG .frame-137-cPQ .frame-138-8FG {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-175-nfG .frame-137-cPQ .frame-138-8FG .rectangle-4-Vbc {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ff886b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-175-nfG .frame-137-cPQ .frame-138-8FG .item-16-30-dSv {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-175-nfG .frame-137-cPQ .frame-138-8FG .all-devs-Mti {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-182-HnN {
+  box-sizing: border-box;
+  padding: 1.2rem 7.4rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 16.2rem;
+  top: 30.5rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-189-mSe {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 8.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 16.2rem;
+  top: 45.6rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-189-mSe .item-27-fY2 {
+  margin: 0rem 0rem 1.2rem 0.75rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-189-mSe .frame-137-nce {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-189-mSe .frame-137-nce .frame-133-kJa {
+  margin-bottom: 0.8rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-189-mSe .frame-137-nce .frame-133-kJa .rectangle-4-Jaz {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-189-mSe .frame-137-nce .frame-133-kJa .item-1230-2G6 {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-189-mSe .frame-137-nce .frame-133-kJa .product-planning-x9k {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-189-mSe .frame-137-nce .frame-137-Hhp {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-189-mSe .frame-137-nce .frame-137-Hhp .rectangle-4-qjL {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #79d969;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-189-mSe .frame-137-nce .frame-137-Hhp .item-1345-NUN {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-189-mSe .frame-137-nce .frame-137-Hhp .stand-up-Jcv {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-196-2Yv {
+  box-sizing: border-box;
+  padding: 1.2rem 1.2rem 8.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 16.2rem;
+  top: 60.7rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-196-2Yv .item-03-jCS {
+  margin: 0rem 0rem 1.2rem 0.1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-196-2Yv .frame-137-qWN {
+  margin-right: 4.5rem;
+  width: 9.1rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-196-2Yv .frame-137-qWN .frame-137-P26 {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-196-2Yv .frame-137-qWN .frame-137-P26 .rectangle-4-8VU {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #79d969;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-196-2Yv .frame-137-qWN .frame-137-P26 .item-1345-4tv {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-196-2Yv .frame-137-qWN .frame-137-P26 .stand-up-QC6 {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-196-2Yv .frame-137-qWN .frame-139-YJJ {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-196-2Yv .frame-137-qWN .frame-139-YJJ .rectangle-4-uPk {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ffde4b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-196-2Yv .frame-137-qWN .frame-139-YJJ .item-18-05-rJz {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-196-2Yv .frame-137-qWN .frame-139-YJJ .all-hands-P42 {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-169-iMC {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 10.4rem 1.2rem;
+  width: 16rem;
+  height: 15.2rem;
+  position: absolute;
+  left: 32.3rem;
+  top: 0;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-169-iMC .item-07-pv2 {
+  margin: 0rem 0rem 1.2rem 0.65rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-169-iMC .frame-133-LdU {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-169-iMC .frame-133-LdU .rectangle-4-uAn {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-169-iMC .frame-133-LdU .item-1230-SAi {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-169-iMC .frame-133-LdU .product-planning-MoU {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-176-tYW {
+  box-sizing: border-box;
+  padding: 1.2rem 1.2rem 8.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 32.3rem;
+  top: 15.3rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-176-tYW .item-14-CJJ {
+  margin: 0rem 0rem 1.2rem 0.1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-176-tYW .frame-137-vEJ {
+  margin-right: 4.5rem;
+  width: 9.1rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-176-tYW .frame-137-vEJ .frame-138-4rJ {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-176-tYW .frame-137-vEJ .frame-138-4rJ .rectangle-4-RRx {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ff886b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-176-tYW .frame-137-vEJ .frame-138-4rJ .item-16-30-9sk {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-176-tYW .frame-137-vEJ .frame-138-4rJ .all-devs-gMt {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-176-tYW .frame-137-vEJ .frame-139-d2E {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-176-tYW .frame-137-vEJ .frame-139-d2E .rectangle-4-aiA {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ffde4b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-176-tYW .frame-137-vEJ .frame-139-d2E .item-18-05-iZU {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-176-tYW .frame-137-vEJ .frame-139-d2E .all-hands-35x {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-183-NP8 {
+  box-sizing: border-box;
+  padding: 1.2rem 1.2rem 8.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 32.3rem;
+  top: 30.5rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-183-NP8 .item-21-fd8 {
+  margin: 0rem 0rem 1.2rem 0.1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-183-NP8 .frame-137-nSr {
+  margin-right: 4.5rem;
+  width: 9.1rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-183-NP8 .frame-137-nSr .frame-137-vox {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-183-NP8 .frame-137-nSr .frame-137-vox .rectangle-4-gHL {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #79d969;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-183-NP8 .frame-137-nSr .frame-137-vox .item-1345-26J {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-183-NP8 .frame-137-nSr .frame-137-vox .stand-up-YKY {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-183-NP8 .frame-137-nSr .frame-139-sci {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-183-NP8 .frame-137-nSr .frame-139-sci .rectangle-4-dLz {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ffde4b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-183-NP8 .frame-137-nSr .frame-139-sci .item-18-05-MXt {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-183-NP8 .frame-137-nSr .frame-139-sci .all-hands-HAe {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 6.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 32.3rem;
+  top: 45.6rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .item-28-6Nz {
+  margin: 0rem 0rem 1.2rem 0.65rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .frame-137-QPg {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .frame-137-QPg .frame-133-Mpi {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .frame-137-QPg .frame-133-Mpi .rectangle-4-7Yz {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .frame-137-QPg .frame-133-Mpi .item-1230-rFg {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .frame-137-QPg .frame-133-Mpi .product-planning-AnA {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .frame-137-QPg .auto-group-hrqb-JNa {
+  box-sizing: border-box;
+  padding-top: 0.8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .frame-137-QPg .auto-group-hrqb-JNa .frame-137-qNW {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .frame-137-QPg .auto-group-hrqb-JNa .frame-137-qNW .rectangle-4-BSN {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #79d969;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .frame-137-QPg .auto-group-hrqb-JNa .frame-137-qNW .item-1345-WDk {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .frame-137-QPg .auto-group-hrqb-JNa .frame-137-qNW .stand-up-2Sz {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .frame-137-QPg .auto-group-hrqb-JNa .frame-139-siW {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .frame-137-QPg .auto-group-hrqb-JNa .frame-139-siW .rectangle-4-pte {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ffde4b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .frame-137-QPg .auto-group-hrqb-JNa .frame-139-siW .item-18-05-Lrz {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-190-QFG .frame-137-QPg .auto-group-hrqb-JNa .frame-139-siW .all-hands-Sv2 {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 6.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 32.3rem;
+  top: 60.7rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .item-04-V18 {
+  margin: 0rem 0rem 1.2rem 0.75rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .frame-137-zia {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .frame-137-zia .frame-133-9rN {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .frame-137-zia .frame-133-9rN .rectangle-4-iPg {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .frame-137-zia .frame-133-9rN .item-1230-T6N {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .frame-137-zia .frame-133-9rN .product-planning-nPY {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .frame-137-zia .auto-group-ynsf-inz {
+  box-sizing: border-box;
+  padding-top: 0.8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .frame-137-zia .auto-group-ynsf-inz .frame-137-UXG {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .frame-137-zia .auto-group-ynsf-inz .frame-137-UXG .rectangle-4-EFY {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #79d969;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .frame-137-zia .auto-group-ynsf-inz .frame-137-UXG .item-1345-a4W {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .frame-137-zia .auto-group-ynsf-inz .frame-137-UXG .stand-up-uMg {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .frame-137-zia .auto-group-ynsf-inz .frame-138-r22 {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .frame-137-zia .auto-group-ynsf-inz .frame-138-r22 .rectangle-4-19p {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ff886b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .frame-137-zia .auto-group-ynsf-inz .frame-138-r22 .item-16-30-kNJ {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-197-zq4 .frame-137-zia .auto-group-ynsf-inz .frame-138-r22 .all-devs-sC2 {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-170-o5g {
+  box-sizing: border-box;
+  padding: 1.2rem 7.35rem 1.2rem 7.45rem;
+  width: 16rem;
+  height: 15.2rem;
+  position: absolute;
+  left: 48.4rem;
+  top: 0;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-177-FiN {
+  box-sizing: border-box;
+  padding: 1.2rem 1.2rem 8.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 48.4rem;
+  top: 15.3rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-177-FiN .item-15-9ok {
+  margin: 0rem 0rem 1.2rem 0.1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-177-FiN .frame-137-ULE {
+  margin-right: 4.5rem;
+  width: 9.1rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-177-FiN .frame-137-ULE .frame-137-E4W {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-177-FiN .frame-137-ULE .frame-137-E4W .rectangle-4-n62 {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #79d969;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-177-FiN .frame-137-ULE .frame-137-E4W .item-1345-7e6 {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-177-FiN .frame-137-ULE .frame-137-E4W .stand-up-SRU {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-177-FiN .frame-137-ULE .frame-139-nVL {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-177-FiN .frame-137-ULE .frame-139-nVL .rectangle-4-wt2 {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ffde4b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-177-FiN .frame-137-ULE .frame-139-nVL .item-18-05-tYN {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-177-FiN .frame-137-ULE .frame-139-nVL .all-hands-cjG {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-184-kKg {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 8.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 48.4rem;
+  top: 30.5rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-184-kKg .item-22-efx {
+  margin: 0rem 0rem 1.2rem 0.75rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-184-kKg .frame-137-yTL {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-184-kKg .frame-137-yTL .frame-133-jBc {
+  margin-bottom: 0.8rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-184-kKg .frame-137-yTL .frame-133-jBc .rectangle-4-GxE {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-184-kKg .frame-137-yTL .frame-133-jBc .item-1230-pD4 {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-184-kKg .frame-137-yTL .frame-133-jBc .product-planning-kMc {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-184-kKg .frame-137-yTL .frame-138-gWA {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-184-kKg .frame-137-yTL .frame-138-gWA .rectangle-4-Ena {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ff886b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-184-kKg .frame-137-yTL .frame-138-gWA .item-16-30-ykA {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-184-kKg .frame-137-yTL .frame-138-gWA .all-devs-KJE {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA {
+  box-sizing: border-box;
+  padding: 1.2rem 1.2rem 6.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 48.4rem;
+  top: 45.6rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .item-29-waW {
+  margin-bottom: 1.2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .frame-137-sj4 {
+  margin-right: 4.5rem;
+  width: 9.1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .frame-137-sj4 .auto-group-ck8q-26A {
+  box-sizing: border-box;
+  padding-bottom: 0.8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .frame-137-sj4 .auto-group-ck8q-26A .frame-137-WX8 {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .frame-137-sj4 .auto-group-ck8q-26A .frame-137-WX8 .rectangle-4-rqt {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #79d969;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .frame-137-sj4 .auto-group-ck8q-26A .frame-137-WX8 .item-1345-Q6i {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .frame-137-sj4 .auto-group-ck8q-26A .frame-137-WX8 .stand-up-8YW {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .frame-137-sj4 .auto-group-ck8q-26A .frame-138-g4E {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .frame-137-sj4 .auto-group-ck8q-26A .frame-138-g4E .rectangle-4-S3Q {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ff886b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .frame-137-sj4 .auto-group-ck8q-26A .frame-138-g4E .item-16-30-yJE {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .frame-137-sj4 .auto-group-ck8q-26A .frame-138-g4E .all-devs-JbQ {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .frame-137-sj4 .frame-139-qrE {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .frame-137-sj4 .frame-139-qrE .rectangle-4-zz2 {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ffde4b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .frame-137-sj4 .frame-139-qrE .item-18-05-wPU {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-191-rJA .frame-137-sj4 .frame-139-qrE .all-hands-g6A {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-198-cEi {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 8.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 48.4rem;
+  top: 60.7rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-198-cEi .item-05-iHk {
+  margin: 0rem 0rem 1.2rem 0.65rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-198-cEi .frame-137-DEW {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-198-cEi .frame-137-DEW .frame-133-mG2 {
+  margin-bottom: 0.8rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-198-cEi .frame-137-DEW .frame-133-mG2 .rectangle-4-7an {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-198-cEi .frame-137-DEW .frame-133-mG2 .item-1230-eKp {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-198-cEi .frame-137-DEW .frame-133-mG2 .product-planning-NWi {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-198-cEi .frame-137-DEW .frame-137-6xW {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-198-cEi .frame-137-DEW .frame-137-6xW .rectangle-4-THG {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #79d969;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-198-cEi .frame-137-DEW .frame-137-6xW .item-1345-Byx {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-198-cEi .frame-137-DEW .frame-137-6xW .stand-up-7sc {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-171-3WN {
+  box-sizing: border-box;
+  padding: 1.2rem 1.2rem 8.4rem 1.2rem;
+  width: 16rem;
+  height: 15.2rem;
+  position: absolute;
+  left: 64.5rem;
+  top: 0;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-171-3WN .item-09-ZDp {
+  margin-bottom: 1.2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-171-3WN .frame-137-hL2 {
+  margin-right: 4.5rem;
+  width: 9.1rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-171-3WN .frame-137-hL2 .frame-137-em4 {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-171-3WN .frame-137-hL2 .frame-137-em4 .rectangle-4-QVL {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #79d969;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-171-3WN .frame-137-hL2 .frame-137-em4 .item-1345-8w8 {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-171-3WN .frame-137-hL2 .frame-137-em4 .stand-up-GGe {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-171-3WN .frame-137-hL2 .frame-139-1V8 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-171-3WN .frame-137-hL2 .frame-139-1V8 .rectangle-4-NKg {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ffde4b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-171-3WN .frame-137-hL2 .frame-139-1V8 .item-18-05-hsk {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-171-3WN .frame-137-hL2 .frame-139-1V8 .all-hands-3Av {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 6.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 64.5rem;
+  top: 15.3rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .item-16-gDt {
+  margin: 0rem 0rem 1.2rem 0.75rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .frame-137-Ptz {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .frame-137-Ptz .frame-133-Mav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .frame-137-Ptz .frame-133-Mav .rectangle-4-Wii {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .frame-137-Ptz .frame-133-Mav .item-1230-rna {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .frame-137-Ptz .frame-133-Mav .product-planning-zNz {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .frame-137-Ptz .auto-group-j36m-w3L {
+  box-sizing: border-box;
+  padding-top: 0.8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .frame-137-Ptz .auto-group-j36m-w3L .frame-138-GrJ {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .frame-137-Ptz .auto-group-j36m-w3L .frame-138-GrJ .rectangle-4-QxW {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ff886b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .frame-137-Ptz .auto-group-j36m-w3L .frame-138-GrJ .item-16-30-9v6 {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .frame-137-Ptz .auto-group-j36m-w3L .frame-138-GrJ .all-devs-hAv {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .frame-137-Ptz .auto-group-j36m-w3L .frame-139-dqG {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .frame-137-Ptz .auto-group-j36m-w3L .frame-139-dqG .rectangle-4-oDx {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ffde4b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .frame-137-Ptz .auto-group-j36m-w3L .frame-139-dqG .item-18-05-8n2 {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-178-msc .frame-137-Ptz .auto-group-j36m-w3L .frame-139-dqG .all-hands-49t {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-185-BVQ {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 10.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 64.5rem;
+  top: 30.5rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-185-BVQ .item-23-66a {
+  margin: 0rem 0rem 1.2rem 0.65rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-185-BVQ .frame-133-oWn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-185-BVQ .frame-133-oWn .rectangle-4-N46 {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-185-BVQ .frame-133-oWn .item-1230-uZp {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-185-BVQ .frame-133-oWn .product-planning-SJr {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-192-Ysg {
+  box-sizing: border-box;
+  padding: 1.2rem 7.35rem 1.2rem 7.45rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 64.5rem;
+  top: 45.6rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 6.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 64.5rem;
+  top: 60.7rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .item-06-ubk {
+  margin: 0rem 0rem 1.2rem 0.65rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .frame-137-Rpz {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .frame-137-Rpz .frame-133-nfY {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .frame-137-Rpz .frame-133-nfY .rectangle-4-YPp {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .frame-137-Rpz .frame-133-nfY .item-1230-5Pk {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .frame-137-Rpz .frame-133-nfY .product-planning-QB8 {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .frame-137-Rpz .auto-group-fu2v-9Pc {
+  box-sizing: border-box;
+  padding-top: 0.8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .frame-137-Rpz .auto-group-fu2v-9Pc .frame-137-trz {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .frame-137-Rpz .auto-group-fu2v-9Pc .frame-137-trz .rectangle-4-eLN {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #79d969;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .frame-137-Rpz .auto-group-fu2v-9Pc .frame-137-trz .item-1345-ajp {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .frame-137-Rpz .auto-group-fu2v-9Pc .frame-137-trz .stand-up-Jvi {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .frame-137-Rpz .auto-group-fu2v-9Pc .frame-138-FLA {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .frame-137-Rpz .auto-group-fu2v-9Pc .frame-138-FLA .rectangle-4-CWJ {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ff886b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .frame-137-Rpz .auto-group-fu2v-9Pc .frame-138-FLA .item-16-30-jm8 {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-199-cMk .frame-137-Rpz .auto-group-fu2v-9Pc .frame-138-FLA .all-devs-UCv {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-172-Q6a {
+  box-sizing: border-box;
+  padding: 1.2rem 7.4rem;
+  width: 16rem;
+  height: 15.2rem;
+  position: absolute;
+  left: 80.6rem;
+  top: 0;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-179-gJz {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 8.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 80.6rem;
+  top: 15.3rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-179-gJz .item-17-z4n {
+  margin: 0rem 0rem 1.2rem 0.65rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-179-gJz .frame-137-79Q {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-179-gJz .frame-137-79Q .frame-133-G2J {
+  margin-bottom: 0.8rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-179-gJz .frame-137-79Q .frame-133-G2J .rectangle-4-p3p {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-179-gJz .frame-137-79Q .frame-133-G2J .item-1230-9bt {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-179-gJz .frame-137-79Q .frame-133-G2J .product-planning-V9x {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-179-gJz .frame-137-79Q .frame-138-2fg {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-179-gJz .frame-137-79Q .frame-138-2fg .rectangle-4-zcW {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ff886b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-179-gJz .frame-137-79Q .frame-138-2fg .item-16-30-XsL {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-179-gJz .frame-137-79Q .frame-138-2fg .all-devs-ruc {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-186-mmg {
+  box-sizing: border-box;
+  padding: 1.2rem 7.4rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 80.6rem;
+  top: 30.5rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 4.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 80.6rem;
+  top: 45.6rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .item-31-ZhY {
+  margin: 0rem 0rem 1.2rem 0.75rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .frame-133-dhQ {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .frame-133-dhQ .rectangle-4-zXx {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .frame-133-dhQ .item-1230-XXt {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .frame-133-dhQ .product-planning-Fin {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .auto-group-khhf-zwG {
+  box-sizing: border-box;
+  padding-top: 0.8rem;
+  width: 100%;
+  row-gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .auto-group-khhf-zwG .frame-137-LkE {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .auto-group-khhf-zwG .frame-137-LkE .rectangle-4-u2e {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #79d969;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .auto-group-khhf-zwG .frame-137-LkE .item-1345-Eai {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .auto-group-khhf-zwG .frame-137-LkE .stand-up-mKk {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .auto-group-khhf-zwG .frame-138-hUJ {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .auto-group-khhf-zwG .frame-138-hUJ .rectangle-4-G1c {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ff886b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .auto-group-khhf-zwG .frame-138-hUJ .item-16-30-bZg {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .auto-group-khhf-zwG .frame-138-hUJ .all-devs-jQz {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .auto-group-khhf-zwG .frame-139-5Ur {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .auto-group-khhf-zwG .frame-139-5Ur .rectangle-4-e2A {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ffde4b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .auto-group-khhf-zwG .frame-139-5Ur .item-18-05-yaE {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-193-rYE .frame-137-HNe .auto-group-khhf-zwG .frame-139-5Ur .all-hands-uTt {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 6.2rem 1.2rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 80.6rem;
+  top: 60.7rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .item-07-LJJ {
+  margin: 0rem 0rem 1.2rem 0.65rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .frame-137-3yQ {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .frame-137-3yQ .frame-133-cWi {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .frame-137-3yQ .frame-133-cWi .rectangle-4-aCe {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .frame-137-3yQ .frame-133-cWi .item-1230-i3x {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .frame-137-3yQ .frame-133-cWi .product-planning-psg {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .frame-137-3yQ .auto-group-amkj-41L {
+  box-sizing: border-box;
+  padding-top: 0.8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .frame-137-3yQ .auto-group-amkj-41L .frame-138-CdL {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .frame-137-3yQ .auto-group-amkj-41L .frame-138-CdL .rectangle-4-ZCz {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ff886b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .frame-137-3yQ .auto-group-amkj-41L .frame-138-CdL .item-16-30-JAa {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .frame-137-3yQ .auto-group-amkj-41L .frame-138-CdL .all-devs-dTk {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .frame-137-3yQ .auto-group-amkj-41L .frame-139-ynW {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .frame-137-3yQ .auto-group-amkj-41L .frame-139-ynW .rectangle-4-YKp {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #ffde4b;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .frame-137-3yQ .auto-group-amkj-41L .frame-139-ynW .item-18-05-HHQ {
+  margin-right: 1.05rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-200-Rx2 .frame-137-3yQ .auto-group-amkj-41L .frame-139-ynW .all-hands-1jC {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-173-wcr {
+  box-sizing: border-box;
+  padding: 1.2rem 1.85rem 10.4rem 1.2rem;
+  width: 16rem;
+  height: 15.2rem;
+  position: absolute;
+  left: 96.7rem;
+  top: 0;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-173-wcr .item-11-rUv {
+  margin: 0rem 0rem 1.2rem 0.65rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-173-wcr .frame-133-NiA {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-173-wcr .frame-133-NiA .rectangle-4-vjg {
+  margin-right: 0.85rem;
+  width: 0.4rem;
+  height: 1.2rem;
+  background-color: #6e6ef7;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-173-wcr .frame-133-NiA .item-1230-rdL {
+  margin-right: 1.2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-173-wcr .frame-133-NiA .product-planning-nmt {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-180-8Kx {
+  box-sizing: border-box;
+  padding: 1.2rem 7.4rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 96.7rem;
+  top: 15.3rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-187-DcJ {
+  box-sizing: border-box;
+  padding: 1.2rem 7.4rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 96.7rem;
+  top: 30.5rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-194-Jte {
+  box-sizing: border-box;
+  padding: 1.2rem 7.4rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 96.7rem;
+  top: 45.6rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+}
+.calendar-4Xp .main-container-5xi .frame-96-Xy8 .auto-group-z5wm-fNW .frame-201-PQJ {
+  box-sizing: border-box;
+  padding: 1.2rem 7.35rem 1.2rem 7.45rem;
+  width: 16rem;
+  height: 15rem;
+  position: absolute;
+  left: 96.7rem;
+  top: 60.7rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #4f5a67;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+}
+.calendar-4Xp .frame-62-Nn2 {
+  box-sizing: border-box;
+  padding: 1.6rem 3.6rem 1.5rem 3.6rem;
+  width: 120rem;
+  height: 7.2rem;
+  position: absolute;
+  left: 24rem;
+  top: 8rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 -0.1rem 0 #f1f1f1);
+  background-color: #ffffff;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-63-5Ae {
+  margin: 0.1rem 42.2rem 0rem 0rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-63-5Ae .button-medium-14J {
+  margin-right: 1.2rem;
+  box-sizing: border-box;
+  padding: 1.3rem 1.4rem 1.3rem 2rem;
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #eaecee;
+  background-color: #ffffff;
+  border-radius: 3.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-63-5Ae .button-medium-14J .new-entry-ufU {
+  margin-right: 1.8rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #0c1116;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-63-5Ae .button-medium-14J .filter-list-qp2 {
+  width: 1.2rem;
+  height: 0.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-63-5Ae .search-input-x7x {
+  box-sizing: border-box;
+  padding: 1.3rem 1.834rem 1.3rem 1.6rem;
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #eaecee;
+  background-color: #ffffff;
+  border-radius: 3.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-63-5Ae .search-input-x7x .try-miami-beachhouse-GPY {
+  margin-right: 5.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #d5dade;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-63-5Ae .search-input-x7x .search-Azi {
+  margin-bottom: 0.034rem;
+  width: 1.166rem;
+  height: 1.166rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-64-566 {
+  margin-bottom: 0.1rem;
+  height: 4rem;
+  display: flex;
+  column-gap: 1.2rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-64-566 .button-medium-DCJ {
+  box-sizing: border-box;
+  padding: 1.3rem 1.7333rem;
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #eaecee;
+  background-color: #ffffff;
+  border-radius: 3.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-64-566 .button-medium-DCJ .chevron-left-M3c {
+  margin-right: 1.3727rem;
+  width: 0.494rem;
+  height: 0.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-64-566 .button-medium-DCJ .new-entry-HCA {
+  margin-right: 2.2727rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #0c1116;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-64-566 .button-medium-DCJ .chevron-right-d18 {
+  width: 0.494rem;
+  height: 0.8rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-64-566 .button-medium-8ia {
+  box-sizing: border-box;
+  padding: 1.267rem 1.667rem 1.267rem 1.333rem;
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #eaecee;
+  background-color: #ffffff;
+  border-radius: 3.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-64-566 .button-medium-8ia .calendar-today-ruU {
+  margin-right: 0.9333rem;
+  width: 1.3333rem;
+  height: 1.4667rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-64-566 .button-medium-8ia .new-entry-oJv {
+  margin: 0rem 1.767rem 0rem 0rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #0c1116;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-64-566 .button-medium-8ia .arrow-drop-down-iRt {
+  margin-top: 0.0667rem;
+  width: 0.6667rem;
+  height: 0.3333rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .frame-62-Nn2 .frame-64-566 .button-medium-DNe {
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 3.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga {
+  box-sizing: border-box;
+  padding: 2.4rem 0rem 0.8rem 0rem;
+  width: 24rem;
+  height: 102.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset -0.1rem 0 0 #3d3d3d);
+  background-color: #000000;
+}
+.calendar-4Xp .sidebar-dark-Kga .logo-text-dSN {
+  margin: 0rem 2.1rem 3rem 0rem;
+  width: 13.4rem;
+  height: 3.4rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .logo-text-dSN .investly-MdG {
+  width: 13.4rem;
+  height: 3.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 1.2000000817;
+  color: #0c0c53;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.calendar-4Xp .sidebar-dark-Kga .logo-text-dSN .investly-MdG .investly-MdG-sub-0 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  line-height: 1.2000000817;
+  color: #0c0c53;
+  font-family: Satoshi, 'Source Sans Pro';
+}
+.calendar-4Xp .sidebar-dark-Kga .logo-text-dSN .investly-MdG .investly-MdG-sub-1 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  line-height: 1.2000000817;
+  color: #3f3ff2;
+  font-family: Satoshi, 'Source Sans Pro';
+}
+.calendar-4Xp .sidebar-dark-Kga .logo-text-dSN .workit-rbx {
+  width: 6.3rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #ffffff;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.calendar-4Xp .sidebar-dark-Kga .logo-text-dSN .workit-rbx .workit-rbx-sub-0 {
+}
+.calendar-4Xp .sidebar-dark-Kga .logo-text-dSN .workit-rbx .workit-rbx-sub-1 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #3f3ff2;
+  font-family: General Sans, 'Source Sans Pro';
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c {
+  margin-bottom: 44.4rem;
+  width: 100%;
+  row-gap: 0.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-Nyc {
+  box-sizing: border-box;
+  padding: 1.5rem 9.6rem 1.5rem 2.5rem;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-Nyc .tab-hW6 {
+  margin-right: 2.4rem;
+  opacity: 0.9;
+  width: 2.2rem;
+  height: 1.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-Nyc .dashboard-q6W {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #f1f1f1;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-9st {
+  box-sizing: border-box;
+  padding: 1.5rem 7.1rem 1.5rem 2.6rem;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-9st .business-gcv {
+  margin-right: 2.5rem;
+  opacity: 0.9;
+  width: 2rem;
+  height: 1.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-9st .available-units-RKc {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #f1f1f1;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-mPU {
+  box-sizing: border-box;
+  padding: 1.3rem 11.4rem 1.3rem 2.7rem;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-mPU .verified-user-6ge {
+  margin-right: 2.6rem;
+  opacity: 0.9;
+  width: 1.8rem;
+  height: 2.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-mPU .invoices-q8S {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #f1f1f1;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-BCJ {
+  width: 100%;
+  height: 4.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #242c35;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-BCJ .auto-group-namb-8NS {
+  box-sizing: border-box;
+  padding: 1.4rem 11rem 1.4rem 2.6rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-BCJ .auto-group-namb-8NS .watch-later-fNN {
+  margin-right: 2.5rem;
+  opacity: 0.9;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-BCJ .auto-group-namb-8NS .projects-nht {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #f6f6fa;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-BCJ .rectangle-3-w4z {
+  width: 0.4rem;
+  height: 4.8rem;
+  background-color: #6e6ef7;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-szE {
+  box-sizing: border-box;
+  padding: 1.4rem 8.3rem 1.408rem 2.7rem;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-szE .share-RF4 {
+  margin-right: 2.6rem;
+  opacity: 0.9;
+  width: 1.8rem;
+  height: 1.992rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-szE .social-media-xVt {
+  margin-top: 0.008rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #f1f1f1;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-gAz {
+  box-sizing: border-box;
+  padding: 1.5rem 8.8rem 1.5rem 2.7rem;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-gAz .dashboard-1j4 {
+  margin-right: 2.6rem;
+  opacity: 0.9;
+  width: 1.8rem;
+  height: 1.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-gAz .integrations-Yiz {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #f1f1f1;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-gaJ {
+  box-sizing: border-box;
+  padding: 1.3rem 6.4rem 1.3rem 2.7rem;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-gaJ .bookmarks-CoY {
+  margin-right: 2.6rem;
+  opacity: 0.9;
+  width: 1.8rem;
+  height: 2.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .main-links-f3c .nav-links-dark-gaJ .documentation-8BQ {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #f1f1f1;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .bottom-links-s8z {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .bottom-links-s8z .nav-links-dark-pa2 {
+  margin-bottom: 0.4rem;
+  box-sizing: border-box;
+  padding: 1.4rem 11.4rem 1.4rem 2.627rem;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .bottom-links-s8z .nav-links-dark-pa2 .settings-xAS {
+  margin-right: 2.5275rem;
+  opacity: 0.9;
+  width: 1.9454rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .bottom-links-s8z .nav-links-dark-pa2 .settings-UuU {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #f1f1f1;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .bottom-links-s8z .nav-links-dark-1eW {
+  box-sizing: border-box;
+  padding: 1.4rem 9.2rem 1.4rem 2.6rem;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .bottom-links-s8z .nav-links-dark-1eW .help-outline-YuL {
+  margin-right: 2.5rem;
+  opacity: 0.9;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .sidebar-dark-Kga .bottom-links-s8z .nav-links-dark-1eW .help-center-6R4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #f1f1f1;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .topbar-bci {
+  box-sizing: border-box;
+  padding: 2rem 3.6rem;
+  width: 120.1rem;
+  height: 8rem;
+  position: absolute;
+  left: 23.9rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 -0.1rem 0 #f1f1f1);
+  background-color: #ffffff;
+}
+.calendar-4Xp .topbar-bci .left-content-iSS {
+  margin: 0.2rem 49.1rem 0.2rem 0rem;
+  height: calc(100% - 0.4rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .topbar-bci .left-content-iSS .frame-37-qmx {
+  margin-right: 2.7rem;
+  box-sizing: border-box;
+  padding-right: 0.7rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .topbar-bci .left-content-iSS .frame-37-qmx .sales-dashboard-ajY {
+  margin-right: 3.4rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #242c35;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .topbar-bci .left-content-iSS .frame-37-qmx .arrow-drop-down-7Ua {
+  margin-top: 0.1rem;
+  opacity: 0.9;
+  width: 1rem;
+  height: 0.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .topbar-bci .left-content-iSS .avatar-stack-37L {
+  margin: 0.2rem 0;
+  width: 11.2rem;
+  height: calc(100% - 0.4rem);
+  position: relative;
+  flex-shrink: 0;
+}
+.calendar-4Xp .topbar-bci .left-content-iSS .avatar-stack-37L .unsplash-x6uj51n5ce8-xzz {
+  width: 3.2rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: solid 0.2rem #d8d8fe;
+  box-sizing: border-box;
+  background-color: #c4c4c4;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/unsplash-x6uj51n5ce8-bg-boL.png');
+  border-radius: 1.6rem;
+}
+.calendar-4Xp .topbar-bci .left-content-iSS .avatar-stack-37L .unsplash-ifgrcqhznqg-4HL {
+  width: 3.2rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 2rem;
+  top: 0;
+  border: solid 0.2rem #d8d8fe;
+  box-sizing: border-box;
+  background-color: #c4c4c4;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/unsplash-ifgrcqhznqg-bg-NdC.png');
+  border-radius: 1.6rem;
+}
+.calendar-4Xp .topbar-bci .left-content-iSS .avatar-stack-37L .unsplash-ilip77sbmoe-MXL {
+  width: 3.2rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 4rem;
+  top: 0;
+  border: solid 0.2rem #d8d8fe;
+  box-sizing: border-box;
+  background-color: #c4c4c4;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/unsplash-ilip77sbmoe-bg-igN.png');
+  border-radius: 1.6rem;
+}
+.calendar-4Xp .topbar-bci .left-content-iSS .avatar-stack-37L .image-emL {
+  width: 3.2rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 6rem;
+  top: 0;
+  border: solid 0.2rem #d8d8fe;
+  box-sizing: border-box;
+  background-color: #c4c4c4;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-bg-vSr.png');
+  border-radius: 1.6rem;
+}
+.calendar-4Xp .topbar-bci .left-content-iSS .avatar-stack-37L .unsplash-bqe0j0b26rq-Mve {
+  width: 3.2rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 8rem;
+  top: 0;
+  border: solid 0.2rem #d8d8fe;
+  box-sizing: border-box;
+  background-color: #c4c4c4;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/unsplash-bqe0j0b26rq-bg.png');
+  border-radius: 1.6rem;
+}
+.calendar-4Xp .topbar-bci .right-content-Tin {
+  height: 100%;
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calendar-4Xp .topbar-bci .right-content-Tin .button-medium-Qe2 {
+  box-sizing: border-box;
+  padding: 1.3rem 1.533rem 1.3rem 2rem;
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #3f3ff2;
+  border-radius: 3.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .topbar-bci .right-content-Tin .button-medium-Qe2 .new-entry-wP4 {
+  margin-right: 1.9333rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #ffffff;
+  font-family: General Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calendar-4Xp .topbar-bci .right-content-Tin .button-medium-Qe2 .add-rkv {
+  margin-top: 0rem;
+  width: 0.9333rem;
+  height: 0.9333rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calendar-4Xp .topbar-bci .right-content-Tin .button-medium-AWi {
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 3.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .topbar-bci .right-content-Tin .button-medium-7B4 {
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 3.2rem;
+  flex-shrink: 0;
+}
+.calendar-4Xp .topbar-bci .right-content-Tin .image-r8e {
+  width: 4rem;
+  height: 4rem;
+  border: solid 0.2rem #d8d8fe;
+  box-sizing: border-box;
+  background-color: #c4c4c4;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-bg-87G.png');
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
