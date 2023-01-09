@@ -1,0 +1,39 @@
+.nike_text{
+  .result{
+    padding: 200px 0;
+  }
+  .main_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 15vw;
+    font-style: italic;
+    font-weight: 900;
+    transform: translate(-50%, -50%);
+    &::after{
+      content: attr(text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      color: transparent;
+      -webkit-text-stroke: 0.15vw black;
+    }
+  }
+  .move_img{
+    position: absolute;
+    width: 30vw;
+    animation: nike 2s cubic-bezier(0.25, 1, 0.5, 1) infinite alternate;
+  }
+
+  @keyframes nike {
+    0%,
+    10%{
+      transform: translate(100vw, 0) rotate(15deg);
+    }
+    90%, 100%{
+      transform: translate(-40vw, -7vw) rotate(-30deg);
+    }
+  }
+}
+
