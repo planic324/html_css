@@ -185,13 +185,13 @@ button:active,button:focus{outline:0}
 .bouncy_like .btn_like{position:relative;display:block;width:30px;height:30px;margin:0 auto;border:0;background:0 0}
 .bouncy_like .btn_like::before{content:"";display:block;width:20px;height:18px;position:absolute;top:50%;left:50%;margin:-9px 0 0 -10px;background:url(https://static.wehago.com/imgs/cmt/mobile/sp_mo_cmt.png) no-repeat -89px -107px/400px 500px;transition:transform .5s;transition-timing-function:cubic-bezier(.75,-3,.5,4)}
 .bouncy_like .btn_like.select::before{background-position:-174px -107px;transform:scale(1.5)}
-.nike_text .result{padding:200px 0}
-.nike_text .main_text{position:absolute;top:50%;left:50%;font-size:15vw;font-style:italic;font-weight:900;transform:translate(-50%,-50%)}
-.nike_text .main_text::after{content:attr(text);position:absolute;top:0;left:0;z-index:100;color:transparent;-webkit-text-stroke:.15vw #000}
-.nike_text .move_img{position:absolute;width:30vw;animation:nike 2s cubic-bezier(.25,1,.5,1) infinite alternate}
+.nike_text .result{height:30vw}
+.nike_text .result .main_text{position:absolute;top:50%;left:50%;font-size:15vw;font-style:italic;font-weight:900;transform:translate(-50%,-50%);letter-spacing:-1vw}
+.nike_text .result .main_text::after{content:attr(text);position:absolute;top:0;left:0;z-index:100;color:transparent;-webkit-text-stroke:.15vw #000}
+.nike_text .result .move_img{position:absolute;width:30vw;animation:nike 2s cubic-bezier(.25,1,.5,1) infinite alternate}
 @keyframes nike{
 0%,10%{transform:translate(100vw,0) rotate(15deg)}
-100%,90%{transform:translate(-40vw,-7vw) rotate(-30deg)}
+100%,90%{transform:translate(-40vw,-8vw) rotate(-30deg)}
 }
 .skill,.skill_container,body,html{margin:0;height:100%}
 .skill_container{position:relative;height:100%}
