@@ -17,7 +17,7 @@ button:active,button:focus{outline:0}
 .main_page h1.move__bar{position:relative;display:block;font-size:6.3vw;line-height:1.2;color:#fff;font-weight:700}
 .main_page h1.move__bar::before{content:"Planic Skill Box";position:absolute;top:0;left:0;width:100%;border-right:1vw solid #adff2f;color:#adff2f;animation:animaition_effect 5s linear infinite;overflow:hidden;white-space:nowrap;padding-right:5px}
 .main_page h1.tictok__version{position:relative;display:block;font-size:6.3vw;line-height:1.2;color:#fff;font-weight:700;text-shadow:red -4px 0,#0ff 4px 0;animation:tictok infinite .3s ease}
-.main_page .linkBox{position:relative;display:block;width:10vw;font-size:3vw;margin:20vw auto}
+.main_page .linkBox{position:relative;display:block;width:10vw;font-size:3vw;margin:20vw auto 0}
 .main_page .linkBox .link_join{position:absolute;top:0;left:50%;transform:translateX(-50%);color:#fff;white-space:nowrap;animation:join 10s infinite ease-in-out}
 .main_page .linkBox .link_join:nth-child(1){animation-delay:-10s}
 .main_page .linkBox .link_join:nth-child(2){animation-delay:-5s}
