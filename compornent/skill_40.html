@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/skill.css">
+
+<title>view mode setting</title>
+</head>
+<body class="nike_text">
+    <div class="skill">
+        <div class="skill_container ">
+          <!-- snb 불러오는 영역 -->
+          <div id="load_snb"></div>
+          <!-- //snb 불러오는 영역 -->
+            <div class="skill_content type_flex" style="overflow-x: hidden;">
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">다크모드 CSS 대응기</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="text_wrap">
+                            <ul class="text_list">
+                                <li class="item">운영체제/브라우저 테마 변경에 따른 미디어쿼리 적용방법</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>결과물</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="mode_box">
+                            <p class="mode">모드 지정을 안한 경우</p>
+                            <p class="mode change">모드인 경우</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>Code view</p>
+                    </div>
+                    <div class="group_content">
+                        <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="JjeVBNq" data-user="foxmejbd-the-styleful" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/foxmejbd-the-styleful/pen/JjeVBNq">
+                            Untitled</a> by 노은찬 (<a href="https://codepen.io/foxmejbd-the-styleful">@foxmejbd-the-styleful</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="skill.js"></script>
+    <script>
+        $('#load_snb').load('snb.html');
+    </script>
+    <script>
+        $('.btn_like').click(function(){
+            $(this).toggleClass('select');
+        })
+    </script>
+</body>
+
+
+
+</html>
