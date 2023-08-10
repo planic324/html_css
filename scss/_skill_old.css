@@ -58,7 +58,7 @@ body,
     line-height: 1.3em;
     letter-spacing: -0.55px;
     text-align: center;
-    background-color: #1c90fb;
+    background-color: #9020f3;
 }
 .skill_container .skill_content .group .group_title > p{
     color: #fff;
@@ -187,9 +187,10 @@ body,
 }
 .clip_test_box{
     display: flex;
-    width: 100%;
+    width: 300;
     height: 300px;
     padding: 50px;
+    margin: 0 auto;
     border: 10px dashed #000;
     font-weight: bold;
     font-size: 50px;
@@ -197,7 +198,7 @@ body,
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    background-image: url(https://cdn.clien.net/web/api/file/F01/10118420/338072d7bbe1da.jpg?w=780&h=30000);
+    background-image: url(https://www.shutterstock.com/image-photo/hard-hearing-preteen-boy-playing-260nw-1874188684.jpg) no-repeat 0 0 / cover;
 }
 .mix_blend_mode{
     display: block;
@@ -377,7 +378,7 @@ body,
     width: 150px;
     height: 150px;
     margin: 0;
-    background: linear-gradient(50deg, #1c90fb 26%, rgba(255, 255, 255, 0) 59%);
+    background: linear-gradient(50deg, #9020f3 26%, rgba(255, 255, 255, 0) 59%);
     -webkit-animation: load 1.4s infinite linear;
     animation: load 1.4s infinite linear;
     vertical-align: top;
@@ -394,7 +395,7 @@ body,
     left: 0;
     width: 50%;
     height: 50%;
-    background: #1c90fb;
+    background: #9020f3;
     border-radius: 100% 0 0 0;
 }
 .spinner__box--loader:after{
@@ -417,7 +418,7 @@ body,
     left: 50%;
     width: 10px;
     height: 10px;
-    background: #1c90fb;
+    background: #9020f3;
     border-radius: 50%;
     margin-left: -5px;
     clip-path: circle(50% at 50% 50%);
@@ -459,7 +460,7 @@ body,
   left: 50%;
   width: 10px;
   height: 10px;
-  background: #1c90fb;
+  background: #9020f3;
   border-radius: 50%;
   margin-left: -5px;
 }
@@ -468,7 +469,7 @@ body,
     position: absolute;
     top: 50%;
     left: 50%;
-    color: #1c90fb;
+    color: #9020f3;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: -0.5px;
@@ -665,13 +666,13 @@ body,
     height: 100%;
     position: absolute;
     top: 0;
-    background: #1c90fb;
+    background: #9020f3;
     border-radius: 12px;
     transition: all .5s ease 0s;
 
 }
 .tab_wrap .btn_tabs.active{
-    background-color: #1c90fb;
+    background-color: #9020f3;
     color: #fff;
 }
 .tab_wrap .btn_tabs:nth-child(1){
