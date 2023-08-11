@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/skill.css">
+
+<title>view mode setting</title>
+</head>
+<body class="nike_text">
+    <div class="skill">
+        <div class="skill_container ">
+          <!-- snb 불러오는 영역 -->
+          <div id="load_snb"></div>
+          <!-- //snb 불러오는 영역 -->
+            <div class="skill_content type_flex" style="overflow-x: hidden;">
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">New transform Syntax</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="text_wrap">
+                            <ul class="text_list">
+                                <li class="item">transform의 신규 작성법을 알아보자.</li>
+                                <li class="item">기존에 애니메이션의 키프레임에 transform을 적용하는 경우 transform에 작성된 요소를 지속적으로 반복을 해야만하였습니다.<br>하지만, 신규 작성법을 사용하면 keyframe에 변경이 필요한 부분만 작업을 할 수 있습니다</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>기존 vs 신규</p>
+                    </div>
+                    <div class="group_content">
+                        <pre>
+                            기존 작성 방법
+                            .test_box{
+                                transform : translate(50px, 50px) scale(0.8) rotate(45deg);
+                            }
+
+                            신규 작성 방법
+                            .test_box{
+                                translate: 50px 50px;
+                                scale: 0.8;
+                                rotate: 45deg;
+                            }
+                        </pre>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>테스트 (기존)</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="test_box"></div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>테스트 (신규)</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="test_box"></div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="skill.js"></script>
+    <script>
+        $('#load_snb').load('snb.html');
+    </script>
+    <script>
+        $('.btn_like').click(function(){
+            $(this).toggleClass('select');
+        })
+    </script>
+</body>
+
+
+
+</html>

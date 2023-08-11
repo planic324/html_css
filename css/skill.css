@@ -208,6 +208,9 @@ button:active,button:focus{outline:0}
 .mode_box .mode.change{position:relative;font-size:30px;font-weight:900;color:#fff;background-color:#000}
 .mode_box .mode.change::before{content:"Dark";margin-right:4px}
 }
+.test_box{display:block;position:relative;margin:30px auto;width:150px;height:150px;background-color:red}
+.test_box:hover{translate:50px 50px;scale:.8;rotate:45deg}
+.test_box.old:hover{transform:translate(50px,50px) scale(.8) rotate(45deg)}
 .skill,.skill_container,body,html{margin:0;height:100%}
 .skill_container{position:relative;height:100%}
 .skill_container *{font-weight:700}

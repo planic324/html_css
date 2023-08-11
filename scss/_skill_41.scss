@@ -1,0 +1,16 @@
+.test_box{
+    display: block;
+    position: relative;
+    margin: 30px auto;
+    width: 150px;
+    height: 150px;
+    background-color: #ff0000;
+    &:hover{
+        translate: 50px 50px;
+        scale: 0.8;
+        rotate: 45deg;
+    }
+    &.old:hover{
+        transform : translate(50px, 50px) scale(0.8) rotate(45deg);
+    }
+}
