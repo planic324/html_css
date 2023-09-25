@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko" style="font-size: 10px;">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/skill.css">
+
+<title>px/rem/em/vw/vh</title>
+</head>
+<body class="font_unit_test">
+    <div class="skill">
+        <div class="skill_container ">
+          <!-- snb 불러오는 영역 -->
+          <div id="load_snb"></div>
+          <!-- //snb 불러오는 영역 -->
+            <div class="skill_content type_flex" style="overflow-x: hidden;">
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">container query</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="text_wrap">
+                            <ul class="text_list">
+                                <li class="item">px, rem, em, vw, vh font test</li>
+                                <li class="item">기준값 : 10px</li>
+                                <li class="item">&lt;html&gt; font-size: 10px;</li>
+                                <li class="item">&lt;기준div&gt; font-size: 10px;</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                
+
+                <div class="group standard">
+                    <div class="group_title">
+                        <p>단위별 환산되는 수치를 확인해 보자</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="control_box">
+                            <p class="title">기준값 변경하기</p>
+                            <form action="">
+                                <input type="text"> 
+                                <button type="submit" class="btn_control">적용하기</button>
+                            </form>
+                            
+                        </div>
+                        <ul class="fontList">
+                            <li>
+                                <div class="item">input code : font-size: 10px</div>
+                                <div class="item">out code : font-size: 10px</div>
+                                <div class="item">sample</div>
+                                <div class="item_sample text_px">Hellow, World</div>
+                            </li>
+                            <li>
+                                <div class="item">input code : font-size: 1em</div>
+                                <div class="item">out code : font-size: 10px</div>
+                                <div class="item">sample</div>
+                                <div class="item_sample text_em">Hellow, World</div>
+                            </li>
+                            <li>
+                                <div class="item">input code : font-size: 1rem</div>
+                                <div class="item">out code : font-size: 10px</div>
+                                <div class="item">sample</div>
+                                <div class="item_sample text_rem">Hellow, World</div>
+                            </li>
+                            <li>
+                                <div class="item">input code : font-size: 1vw</div>
+                                <div class="item">out code : font-size: 10px</div>
+                                <div class="item">sample</div>
+                                <div class="item_sample text_vw">Hellow, World</div>
+                            </li>
+                            <li>
+                                <div class="item">input code : font-size: 1vh</div>
+                                <div class="item">out code : font-size: 10px</div>
+                                <div class="item">sample</div>
+                                <div class="item_sample text_vh">Hellow, World</div>
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="skill.js"></script>
+    <script>
+        $('#load_snb').load('snb.html');
+    </script>
+    <script>
+        $('.btn_like').click(function(){
+            $(this).toggleClass('select');
+        })
+    </script>
+</body>
+
+
+
+</html>

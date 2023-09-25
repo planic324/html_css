@@ -105,11 +105,11 @@ button:active,button:focus{outline:0}
 50%{width:100%}
 }
 .js_wrap{display:flex;min-height:380px;justify-content:center;align-items:center}
-.js_wrap svg{color:hsl(0deg,0%,20%);max-width:35rem;width:100%;height:auto;display:block}
-.js_wrap svg.bee{color:hsl(0deg,0%,10%);position:absolute;width:50px;height:auto;top:50%;left:50%}
+.js_wrap svg{color:#333;max-width:35rem;width:100%;height:auto;display:block}
+.js_wrap svg.bee{color:#191919;position:absolute;width:50px;height:auto;top:50%;left:50%}
 .js_wrap.type_css{position:relative}
-.js_wrap.type_css svg{color:hsl(0deg,0%,20%);width:80vw;max-width:35rem;width:100%;height:auto;display:block}
-.js_wrap.type_css svg#bee{color:hsl(0deg,0%,10%);position:absolute;width:50px;height:auto}
+.js_wrap.type_css svg{color:#333;width:80vw;max-width:35rem;width:100%;height:auto;display:block}
+.js_wrap.type_css svg#bee{color:#191919;position:absolute;width:50px;height:auto}
 .js_wrap.type_css .circle_box{display:block;position:absolute;width:280px;height:280px;left:50%;top:0;animation:bee_move 12s infinite linear}
 .js_wrap.type_css .circle_box #bee{position:absolute;top:50%;left:-25px;transform:translateY(-50%) rotate(270deg)}
 .js_wrap.type_css .circle_box.v2{display:block;position:absolute;width:280px;height:280px;left:0;top:0;animation:bee_move2 12s linear infinite;animation-delay:6s;opacity:0}
@@ -212,9 +212,22 @@ button:active,button:focus{outline:0}
 .test_box{display:block;position:relative;margin:30px auto;width:150px;height:150px;background-color:red}
 .test_box:hover{translate:50px 50px;scale:.8;rotate:45deg}
 .test_box.old:hover{transform:translate(50px,50px) scale(.8) rotate(45deg)}
-.parent_box{display:block;width:100%;height:300px;margin-top:20px;border:2px solid #4a4a4a;box-sizing:border-box;container-type:inline-size;container-name:test-container}
-.parent_box .child_box{display:block;width:200px;height:200px;margin:50px auto;background:red}
-.skill,.skill_container,body{margin:0;height:100%}
+.font_unit_test .standard{font-size:10px}
+.font_unit_test .fontList{display:block;padding:50px 30px;box-sizing:border-box;display:flex;width:100%;gap:10px}
+.font_unit_test .fontList li{flex:1;padding:10px;border:1px solid #4a4a4a;border-radius:5px}
+.font_unit_test .fontList li .item{font-size:14px;line-height:1.2}
+.font_unit_test .fontList li .item em{display:inline-block;vertical-align:top;padding:10px;border:1px solid #e5e5e5;background:#f8f8f8;border-radius:4px}
+.font_unit_test .fontList li .item_sample{margin-top:5px;padding:10px;border:1px solid #e5e5e5;border-radius:5px;background-color:#f8f8f8}
+.font_unit_test .fontList li .text_px{font-size:10px}
+.font_unit_test .fontList li .text_rem{font-size:1rem}
+.font_unit_test .fontList li .text_em{font-size:1em}
+.font_unit_test .fontList li .text_vw{font-size:1vw}
+.font_unit_test .fontList li .text_vh{font-size:1vh}
+.font_unit_test .control_box{display:flex;align-items:center;gap:5px;padding:50px 30px 0}
+.font_unit_test .control_box .title{font-size:20px;line-height:24px}
+.font_unit_test .control_box input[type=text]{border:1px solid #4a4a4a;border-radius:4px;padding:5px 10px}
+.font_unit_test .control_box .btn_control{border:1px solid #4a4a4a;padding:5px 10px;border-radius:4px}
+.skill,.skill_container,body,html{margin:0;height:100%}
 .skill_container{position:relative;height:100%}
 .skill_container *{font-weight:700}
 .skill_container .skill_content{display:block;position:absolute;top:0;left:220px;right:0;bottom:0;height:100%;padding:30px;background-color:#f8f8f8;box-sizing:border-box;overflow-y:auto}
