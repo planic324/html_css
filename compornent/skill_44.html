@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko" style="font-size: 10px;">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/skill.css">
+
+<title>Grid / Flex Test</title>
+</head>
+<body class="font_unit_test">
+    <div class="skill">
+        <div class="skill_container ">
+          <!-- snb 불러오는 영역 -->
+          <div id="load_snb"></div>
+          <!-- //snb 불러오는 영역 -->
+            <div class="skill_content type_flex" style="overflow-x: hidden;">
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">container query</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="switch_box">
+                            <button type="button" class="btn_action v1">flex > grid</button>
+                            <button type="button" class="btn_action v2">gird 위치변경</button>
+                        </div>
+                    </div>
+                </div>                
+
+                <div class="group standard">
+                    <div class="group_title">
+                        <p>Grid / Flex Test</p>
+                    </div>
+                    <div class="group_content">
+                        
+                        <div class="grid__test">
+                            <div class="gridBox">
+                                <div class="gridItem addFlex">
+                                    <div class="in_gridItem"><p class="text">1-1</p></div>
+                                    <div class="in_gridItem">
+                                        <p class="text">1-2a</p>
+                                        <p class="text">1-2b</p>
+                                    </div>
+                                    <div class="in_gridItem"><p class="text">1-3</p></div>
+                                    <div class="in_gridItem"><p class="text">1-4</p></div>
+                                </div>
+                                <div class="gridItem"><p class="text">2</p></div>
+                                <div class="gridItem"><p class="text">3</p></div>
+                                <div class="gridItem"><p class="text">4</p></div>
+                                <div class="gridItem"><p class="text">5</p></div>
+                                <div class="gridItem"><p class="text">6</p></div>
+                                <div class="gridItem"><p class="text">7</p></div>
+                                <div class="gridItem"><p class="text">8</p></div>
+                                <div class="gridItem"><p class="text">9</p></div>
+                                <div class="gridItem"><p class="text">10</p></div>
+                                <div class="gridItem"><p class="text">11</p></div>
+                                <div class="gridItem"><p class="text">12</p></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="skill.js"></script>
+    <script>
+        $('#load_snb').load('snb.html');
+    </script>
+    <script>
+        $('.btn_action.v2').click(function(){
+            $('.gridBox').toggleClass('change_item');
+        })
+    </script>
+    <script>
+        // 버튼 엘리먼트와 대상 엘리먼트를 선택합니다.
+        var button = document.querySelector('.btn_action.v1');
+        var gridItem = document.querySelector('.gridItem');
+    
+        // 버튼 클릭 시 스위칭 이벤트를 처리합니다.
+        button.addEventListener('click', function() {
+            // "gridItem"에 "addFlex" 클래스가 이미 존재하는지 확인합니다.
+            if (gridItem.classList.contains('addFlex')) {
+                // 이미 클래스가 존재하면 제거합니다.
+                gridItem.classList.remove('addFlex');
+                gridItem.classList.add('addGrid');
+            } else if(gridItem.classList.contains('addGrid'))  {
+                // 클래스가 없으면 추가합니다.
+                gridItem.classList.remove('addGrid');
+                gridItem.classList.add('addFlex');
+            } else{
+                gridItem.classList.remove('addGrid');
+                gridItem.classList.remove('addFlex');
+            }
+        });
+    </script>
+
+    
+    
+</body>
+
+
+
+</html>

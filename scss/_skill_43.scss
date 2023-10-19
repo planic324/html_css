@@ -1,7 +1,5 @@
 .font_unit_test{
-    .standard{
-        font-size: 10px;
-    }
+    
     .fontList{
         display: block;
         padding: 50px 30px;
@@ -49,6 +47,9 @@
             .text_vh{
                 font-size: 1vh;
             }
+            &.rem_text{
+                font-size: 10px;
+            }
         }
         
     }
@@ -66,7 +67,7 @@
             border-radius: 4px;
             padding: 5px 10px;
         }
-        .btn_control{
+        button[class *="btn_control"]{
             border: 1px solid #4a4a4a;
             padding: 5px 10px;
             border-radius: 4px;
