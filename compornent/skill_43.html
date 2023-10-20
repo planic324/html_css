@@ -43,8 +43,8 @@
                         <div class="control_box">
                             <p class="title">rem 기준값 변경하기&lt;html&gt;</p>
                             <form action="">
-                                <input type="text"> 
-                                <button type="submit" class="btn_control">적용하기</button>
+                                <input type="text" class="rem_edit"> 
+                                <button type="button" class="btn_control">적용하기</button>
                             </form>
                             
                         </div>
@@ -52,7 +52,7 @@
                             <p class="title">em 기준값 변경하기 &lt;li&gt;</p>
                             <form action="">
                                 <input type="text" class="em_edit"> 
-                                <button type="submit" class="btn_control_em_edit">적용하기</button>
+                                <button type="buttom" class="btn_control_em_edit">적용하기</button>
                             </form>
                             
                         </div>
@@ -65,11 +65,13 @@
                             <li>
                                 <div class="item">input code : font-size: 1em</div>
                                 <div class="item">sample</div>
+                                <div class="item">out font-size: <em class="em_out_font"></em></div>
                                 <div class="item_sample text_em">Hellow, World</div>
                             </li>
                             <li class="rem_text">
                                 <div class="item">input code : font-size: 1rem</div>
                                 <div class="item">sample</div>
+                                <div class="item">out font-size: <em class="rem_out_font"></em></div>
                                 <div class="item_sample text_rem">Hellow, World</div>
                             </li>
                             <li>
@@ -93,68 +95,33 @@
     </div>
 
     
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
     <script src="skill.js"></script>
-    <script>
+    <!-- <script>
         $('#load_snb').load('snb.html');
-    </script>
+    </script> -->
     <script>
-        $('.btn_like').click(function(){
-            $(this).toggleClass('select');
-        })
-    </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var inputElement = document.querySelector('input[type="text"]');
-            var applyButton = document.querySelector('.btn_control');
-
-            applyButton.addEventListener('click', function(event) {
-                event.preventDefault();
-                var fontSize = parseFloat(inputElement.value);
-                if (!isNaN(fontSize)) {
-                    // <html> 태그에 font-size 스타일을 적용합니다.
-                    document.documentElement.style.fontSize = fontSize + 'px';
-                }
+        document.addEventListener("DOMContentLoaded", function() {
+            const remEditInput = document.querySelector(".rem_edit");
+            const emEditInput = document.querySelector(".em_edit");
+            const remText = document.querySelector(".rem_text");
+            const emOutFont = document.querySelector(".em_out_font");
+    
+            // Handle "적용하기" click for REM
+            document.querySelector(".btn_control").addEventListener("click", function() {
+                const remValue = remEditInput.value;
+                console.log(remValue);
+                remText.style.fontSize = remValue;
+            });
+    
+            // Handle "적용하기" click for EM
+            document.querySelector(".btn_control_em_edit").addEventListener("click", function() {
+                const emValue = emEditInput.value;
+                document.querySelector("html").style.fontSize = emValue;
             });
         });
     </script>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var inputElement = document.querySelector('.em_edit');
-        var applyButton = document.querySelector('.btn_control_em_edit');
-
-        applyButton.addEventListener('click', function(event) {
-            event.preventDefault();
-            var fontSize = parseFloat(inputElement.value);
-            if (!isNaN(fontSize)) {
-                // 클래스가 "abs"인 요소에 font-size 스타일을 적용합니다.
-                var absElements = document.querySelectorAll('.em_text');
-                for (var i = 0; i < absElements.length; i++) {
-                    absElements[i].style.fontSize = fontSize + 'px';
-                }
-            }
-        });
-    });
-</script>
-
-<script>
-    // 이벤트 핸들러를 등록하여 페이지가 로드될 때 실행되도록 합니다.
-    window.onload = function() {
-        // <span> 요소를 선택합니다.
-        var spanElement = document.querySelector('.out_code');
-        
-        // <em> 요소를 선택합니다.
-        var emElement = document.querySelector('.item_sample');
-        
-        // getComputedStyle 메서드를 사용하여 <em> 요소의 현재 적용된 스타일을 가져옵니다.
-        var computedStyle = window.getComputedStyle(emElement);
-        
-        // 'font-size' 속성의 값을 가져와서 <span> 요소에 출력합니다.
-        var fontSize = computedStyle.getPropertyValue('font-size');
-        spanElement.innerHTML = 'out Font Size: ' + fontSize;
-    };
-</script>
+    
 </body>
 
 
