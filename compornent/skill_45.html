@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko" style="font-size: 10px;">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/skill.css">
+
+<title>Grid / Flex Test</title>
+</head>
+<body class="font_unit_test">
+    <div class="skill">
+        <div class="skill_container ">
+          <!-- snb 불러오는 영역 -->
+          <div id="load_snb"></div>
+          <!-- //snb 불러오는 영역 -->
+            <div class="skill_content type_flex" style="overflow-x: hidden;">
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">Grid Template Areas CSS</p>
+                </div>
+
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="text_wrap">
+                            <ul class="text_list">
+                                <li class="item">grid-template-area를 이용하여 gird를 만들어보자</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group standard">
+                    <div class="group_title">
+                        <p>Grid / Flex Test</p>
+                    </div>
+                    <div class="group_content">
+
+                        <div class="gridAreaTest">
+                            <div class="gridBox">
+                                <div class="gridItem header"></div>
+                                <div class="gridItem lnb"></div>
+                                <div class="gridItem rnb"></div>
+                                <div class="gridItem body"></div>
+                                <div class="gridItem footer"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="skill.js"></script>
+    <script>
+        $('#load_snb').load('snb.html');
+    </script>
+    <script>
+        $('.btn_action.v2').click(function(){
+            $('.gridBox').toggleClass('change_item');
+        })
+    </script>
+    <script>
+        // 버튼 엘리먼트와 대상 엘리먼트를 선택합니다.
+        var button = document.querySelector('.btn_action.v1');
+        var gridItem = document.querySelector('.gridItem');
+
+        // 버튼 클릭 시 스위칭 이벤트를 처리합니다.
+        button.addEventListener('click', function() {
+            // "gridItem"에 "addFlex" 클래스가 이미 존재하는지 확인합니다.
+            if (gridItem.classList.contains('addFlex')) {
+                // 이미 클래스가 존재하면 제거합니다.
+                gridItem.classList.remove('addFlex');
+                gridItem.classList.add('addGrid');
+            } else if(gridItem.classList.contains('addGrid'))  {
+                // 클래스가 없으면 추가합니다.
+                gridItem.classList.remove('addGrid');
+                gridItem.classList.add('addFlex');
+            } else{
+                gridItem.classList.remove('addGrid');
+                gridItem.classList.remove('addFlex');
+            }
+        });
+    </script>
+
+
+
+</body>
+
+
+
+</html>
