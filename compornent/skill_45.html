@@ -51,34 +51,5 @@
     </div>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="skill.js"></script>
-    <script>
-        $('#load_snb').load('snb.html');
-    </script>
-    <script>
-        $('.btn_action.v2').click(function(){
-            $('.gridBox').toggleClass('change_item');
-        })
-    </script>
-    <script>
-        // 버튼 엘리먼트와 대상 엘리먼트를 선택합니다.
-        var button = document.querySelector('.btn_action.v1');
-        var gridItem = document.querySelector('.gridItem');
-        // 버튼 클릭 시 스위칭 이벤트를 처리합니다.
-        button.addEventListener('click', function() {
-            // "gridItem"에 "addFlex" 클래스가 이미 존재하는지 확인합니다.
-            if (gridItem.classList.contains('addFlex')) {
-                // 이미 클래스가 존재하면 제거합니다.
-                gridItem.classList.remove('addFlex');
-                gridItem.classList.add('addGrid');
-            } else if(gridItem.classList.contains('addGrid'))  {
-                // 클래스가 없으면 추가합니다.
-                gridItem.classList.remove('addGrid');
-                gridItem.classList.add('addFlex');
-            } else{
-                gridItem.classList.remove('addGrid');
-                gridItem.classList.remove('addFlex');
-            }
-        });
-    </script>
 </body>
 </html>

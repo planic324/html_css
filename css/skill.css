@@ -212,7 +212,8 @@ button:active,button:focus{outline:0}
 .test_box{display:block;position:relative;margin:30px auto;width:150px;height:150px;background-color:red}
 .test_box:hover{translate:50px 50px;scale:.8;rotate:45deg}
 .test_box.old:hover{transform:translate(50px,50px) scale(.8) rotate(45deg)}
-.font_unit_test .fontList{display:block;padding:50px 30px;box-sizing:border-box;display:flex;width:100%;gap:10px}
+.parent{container-type:inline-size;container-name:child-style;border:3px solid gray;width:200px;height:200px;display:grid}
+.child_box{width:100px;height:100px;background:#00f}
 .font_unit_test .fontList li{flex:1;padding:10px;border:1px solid #4a4a4a;border-radius:5px}
 .font_unit_test .fontList li .item{font-size:14px;line-height:1.2}
 .font_unit_test .fontList li .item em{display:inline-block;vertical-align:top;padding:10px;border:1px solid #e5e5e5;background:#f8f8f8;border-radius:4px}

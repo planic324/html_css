@@ -1,0 +1,21 @@
+$breakpoint : 300px;
+
+.parent {
+    container-type: inline-size;
+    container-name: child-style;
+    border: 3px solid gray;
+    width: 200px;
+    height: 200px;
+    display: grid;
+}
+.child_box{
+    width: 100px;
+    height: 100px;
+    background: blue
+}
+
+@container child-style (min-width: #{$breakpoint}) {
+    .child_box {
+        background: red;
+    }
+  }
