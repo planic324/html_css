@@ -252,6 +252,11 @@ button:active,button:focus{outline:0}
 .gridAreaTest .gridBox .gridItem.body{background:#ff0;grid-area:body}
 .gridAreaTest .gridBox .gridItem.rnb{background:#00f;grid-area:rnb}
 .gridAreaTest .gridBox .gridItem.footer{background:purple;grid-area:footer}
+.flexTest{display:block;padding:30px;box-sizing:border-box}
+.flex__ellipsis{position:relative;flex:1;display:flex;align-items:center;gap:15px;font-size:20px;white-space:nowrap}
+.flex__ellipsis>p{font-size:20px;white-space:nowrap}
+.flex__ellipsis>p.ellipsis{overflow:hidden;text-overflow:ellipsis;color:#1c90fb}
+.flex__ellipsisBox{display:flex;border:1px solid #eaeaea}
 .skill,.skill_container,body,html{margin:0;height:100%}
 .skill_container{position:relative;height:100%}
 .skill_container *{font-weight:700}

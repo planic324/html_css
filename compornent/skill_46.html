@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko" style="font-size: 10px;">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/skill.css">
+<title>Grid / Flex Test</title>
+</head>
+<body class="font_unit_test">
+    <div class="skill">
+        <div class="skill_container ">
+          <!-- snb 불러오는 영역 -->
+          <div id="load_snb"></div>
+          <!-- //snb 불러오는 영역 -->
+            <div class="skill_content type_flex" style="overflow-x: hidden;">
+                <div class="pageTitle__box">
+                    <p class="pageTitle dzt_font">Flex 의 overflow</p>
+                </div>
+                <div class="group">
+                    <div class="group_title">
+                        <p>HOW</p>
+                    </div>
+                    <div class="group_content">
+                        <div class="text_wrap">
+                            <ul class="text_list">
+                                <li class="item">display: flex를 사용 시 나타나는 overflow 이슈들</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="group standard">
+                    <div class="group_title">
+                        <p>말줄임 이슈</p>
+                    </div>
+                    <div class="group_content">
+                        <p>
+                            display:flex 자식요소에 display: flex를 넣어서 말줄임 효과를 넣어야되는 경우 종종 발생하는 이슈로
+                            자세히 보자면, display: flex 자식요소에 flex: 1을 넣어 가변적으로 줄어들게 하는 요소에 나타는 이슈이다.
+
+                            이는 flex: 1은 부모의 기준이 되는 요소가 있어야지 기준에 맞춰 자식요소가 줄어들게 되는데,
+                            부모요소에 width가 없거나, 부모요소에 flex가 없거나, 부모요소에 overflow가 없어 박스를 넘어가는 현상이 나타난다.
+                        </p>
+                        <div class="flexTest">
+                            <div class="flex__ellipsisBox">
+                                <div class="flex__ellipsis">
+                                    일이삼사오육칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구십
+                                    <p class="ellipsis">일이삼사오육칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구십</p>
+                                    일이삼사오육칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구십
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="skill.js"></script>
+</body>
+</html>

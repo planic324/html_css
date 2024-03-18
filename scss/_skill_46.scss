@@ -1,0 +1,27 @@
+.flexTest{
+    display: block;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.flex__ellipsis{
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;;
+    gap: 15px;
+    font-size: 20px;
+    white-space: nowrap;
+    & > p{
+        font-size: 20px;
+        white-space: nowrap;
+        &.ellipsis{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #1c90fb;
+        }
+    }
+    &Box{
+        display: flex;
+        border: 1px solid #eaeaea;
+    }
+}
