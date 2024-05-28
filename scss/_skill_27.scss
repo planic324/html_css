@@ -37,25 +37,24 @@
       .circle_box{
         display: block;
         position: absolute;
-        width: 280px;
-        height: 280px;
+        width: 70px;
+        height: 70px;
         left: 50%;
-        top: 0;
+        top: 120px;
         animation: bee_move 12s infinite linear;
+        // background: red;
         #bee{
             position: absolute;
             top: 50%;
             left: -25px;
             transform: translateY(-50%) rotate(270deg);
-            
         }
         &.v2{
             display: block;
             position: absolute;
-            width: 280px;
-            height: 280px;
-            left: 0;
-            top: 0;
+            width: 70px;
+            height: 70px;
+            left: 210px;
             animation: bee_move2 12s linear infinite;
             animation-delay: 6s;
             opacity: 0;
@@ -65,13 +64,13 @@
                 right: -25px;
                 left: auto;
                 transform: translateY(-50%) rotate(270deg);
-                
+
             }
         }
       }
     }
-    
-      
+
+
 }
 
 @keyframes bee_move {
@@ -119,4 +118,3 @@
         transform: rotate(-360deg);
     }
 }
-  

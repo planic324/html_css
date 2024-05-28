@@ -110,9 +110,9 @@ button:active,button:focus{outline:0}
 .js_wrap.type_css{position:relative}
 .js_wrap.type_css svg{color:#333;width:80vw;max-width:35rem;width:100%;height:auto;display:block}
 .js_wrap.type_css svg#bee{color:#191919;position:absolute;width:50px;height:auto}
-.js_wrap.type_css .circle_box{display:block;position:absolute;width:280px;height:280px;left:50%;top:0;animation:bee_move 12s infinite linear}
+.js_wrap.type_css .circle_box{display:block;position:absolute;width:70px;height:70px;left:50%;top:120px;animation:bee_move 12s infinite linear}
 .js_wrap.type_css .circle_box #bee{position:absolute;top:50%;left:-25px;transform:translateY(-50%) rotate(270deg)}
-.js_wrap.type_css .circle_box.v2{display:block;position:absolute;width:280px;height:280px;left:0;top:0;animation:bee_move2 12s linear infinite;animation-delay:6s;opacity:0}
+.js_wrap.type_css .circle_box.v2{display:block;position:absolute;width:70px;height:70px;left:210px;animation:bee_move2 12s linear infinite;animation-delay:6s;opacity:0}
 .js_wrap.type_css .circle_box.v2 #bee{position:absolute;top:50%;right:-25px;left:auto;transform:translateY(-50%) rotate(270deg)}
 @keyframes bee_move{
 0%{transform:rotate(0);opacity:1}
