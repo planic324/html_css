@@ -45,15 +45,15 @@
                             <span></span>
                             <span></span>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
 
-    
+
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="skill.js"></script>
     <script>
@@ -68,7 +68,7 @@
         let minutes = date.getMinutes();
         let seconds = date.getSeconds ();
         let day_night = "AM";
-        
+
         if(hours > 12){
             day_night = "PM";
             hours = hours -12;
@@ -82,7 +82,7 @@
         if(hours < 10){
             hours = "0" + hours;
         }
-        time.textContent = hours + ":" + minutes + ":" + seconds + " " + day_night; 
+        time.textContent = hours + ":" + minutes + ":" + seconds + " " + day_night;
       });
     </script>
 </body>
